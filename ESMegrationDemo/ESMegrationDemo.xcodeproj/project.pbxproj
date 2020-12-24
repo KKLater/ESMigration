@@ -14,7 +14,70 @@
 		1AFA620925944656006817E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA620825944656006817E4 /* Assets.xcassets */; };
 		1AFA620C25944656006817E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA620A25944656006817E4 /* LaunchScreen.storyboard */; };
 		1AFA6217259487A5006817E4 /* ESMigration in Frameworks */ = {isa = PBXBuildFile; productRef = 1AFA6216259487A5006817E4 /* ESMigration */; };
+		1AFA622625948C65006817E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA622525948C65006817E4 /* AppDelegate.swift */; };
+		1AFA622825948C65006817E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA622725948C65006817E4 /* ViewController.swift */; };
+		1AFA622A25948C67006817E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA622925948C67006817E4 /* Assets.xcassets */; };
+		1AFA622D25948C67006817E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA622B25948C67006817E4 /* Main.storyboard */; };
+		1AFA623725948C92006817E4 /* ESMigration in Frameworks */ = {isa = PBXBuildFile; productRef = 1AFA623625948C92006817E4 /* ESMigration */; };
+		1AFA624B25948D0B006817E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA624A25948D0B006817E4 /* AppDelegate.swift */; };
+		1AFA624D25948D0B006817E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA624C25948D0B006817E4 /* ViewController.swift */; };
+		1AFA625025948D0B006817E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA624E25948D0B006817E4 /* Main.storyboard */; };
+		1AFA625225948D0D006817E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA625125948D0D006817E4 /* Assets.xcassets */; };
+		1AFA625525948D0D006817E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA625325948D0D006817E4 /* LaunchScreen.storyboard */; };
+		1AFA625E25948D18006817E4 /* ESMigration in Frameworks */ = {isa = PBXBuildFile; productRef = 1AFA625D25948D18006817E4 /* ESMigration */; };
+		1AFA626E25948DB8006817E4 /* ESMigrationDemo_wtchos WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1AFA626D25948DB8006817E4 /* ESMigrationDemo_wtchos WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1AFA627425948DB9006817E4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA627225948DB8006817E4 /* Interface.storyboard */; };
+		1AFA627625948DB9006817E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA627525948DB9006817E4 /* Assets.xcassets */; };
+		1AFA627D25948DB9006817E4 /* ESMigrationDemo_wtchos WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1AFA627C25948DB9006817E4 /* ESMigrationDemo_wtchos WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1AFA628225948DB9006817E4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA628125948DB9006817E4 /* InterfaceController.swift */; };
+		1AFA628425948DB9006817E4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA628325948DB9006817E4 /* ExtensionDelegate.swift */; };
+		1AFA628625948DB9006817E4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA628525948DB9006817E4 /* NotificationController.swift */; };
+		1AFA628825948DB9006817E4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA628725948DB9006817E4 /* ComplicationController.swift */; };
+		1AFA628A25948DBA006817E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA628925948DBA006817E4 /* Assets.xcassets */; };
+		1AFA629F25948DC9006817E4 /* ESMigration in Frameworks */ = {isa = PBXBuildFile; productRef = 1AFA629E25948DC9006817E4 /* ESMigration */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AFA626F25948DB8006817E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFA61F425944654006817E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AFA626C25948DB8006817E4;
+			remoteInfo = "ESMigrationDemo_wtchos WatchKit App";
+		};
+		1AFA627E25948DB9006817E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFA61F425944654006817E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AFA627B25948DB9006817E4;
+			remoteInfo = "ESMigrationDemo_wtchos WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1AFA629025948DBA006817E4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1AFA627D25948DB9006817E4 /* ESMigrationDemo_wtchos WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFA629425948DBA006817E4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1AFA626E25948DB8006817E4 /* ESMigrationDemo_wtchos WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1AFA61FC25944654006817E4 /* ESMegrationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESMegrationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,6 +88,33 @@
 		1AFA620825944656006817E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AFA620B25944656006817E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AFA620D25944656006817E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFA622325948C65006817E4 /* ESMigrationDemo_macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESMigrationDemo_macos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFA622525948C65006817E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AFA622725948C65006817E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AFA622925948C67006817E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AFA622C25948C67006817E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AFA622E25948C67006817E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFA622F25948C67006817E4 /* ESMigrationDemo_macos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ESMigrationDemo_macos.entitlements; sourceTree = "<group>"; };
+		1AFA624825948D0B006817E4 /* ESMigrationDemo_tvos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESMigrationDemo_tvos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFA624A25948D0B006817E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AFA624C25948D0B006817E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AFA624F25948D0B006817E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AFA625125948D0D006817E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AFA625425948D0D006817E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AFA625625948D0D006817E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFA626A25948DB8006817E4 /* ESMigrationDemo_wtchos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESMigrationDemo_wtchos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFA626D25948DB8006817E4 /* ESMigrationDemo_wtchos WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ESMigrationDemo_wtchos WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFA627325948DB9006817E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1AFA627525948DB9006817E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AFA627725948DB9006817E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFA627C25948DB9006817E4 /* ESMigrationDemo_wtchos WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ESMigrationDemo_wtchos WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFA628125948DB9006817E4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1AFA628325948DB9006817E4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1AFA628525948DB9006817E4 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1AFA628725948DB9006817E4 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		1AFA628925948DBA006817E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AFA628B25948DBA006817E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFA628C25948DBA006817E4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +126,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1AFA622025948C65006817E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFA623725948C92006817E4 /* ESMigration in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFA624525948D0B006817E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFA625E25948D18006817E4 /* ESMigration in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFA627925948DB9006817E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFA629F25948DC9006817E4 /* ESMigration in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -43,7 +157,12 @@
 			isa = PBXGroup;
 			children = (
 				1AFA61FE25944654006817E4 /* ESMegrationDemo */,
+				1AFA622425948C65006817E4 /* ESMigrationDemo_macos */,
+				1AFA624925948D0B006817E4 /* ESMigrationDemo_tvos */,
+				1AFA627125948DB8006817E4 /* ESMigrationDemo_wtchos WatchKit App */,
+				1AFA628025948DB9006817E4 /* ESMigrationDemo_wtchos WatchKit Extension */,
 				1AFA61FD25944654006817E4 /* Products */,
+				1AFA623525948C92006817E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +170,11 @@
 			isa = PBXGroup;
 			children = (
 				1AFA61FC25944654006817E4 /* ESMegrationDemo.app */,
+				1AFA622325948C65006817E4 /* ESMigrationDemo_macos.app */,
+				1AFA624825948D0B006817E4 /* ESMigrationDemo_tvos.app */,
+				1AFA626A25948DB8006817E4 /* ESMigrationDemo_wtchos.app */,
+				1AFA626D25948DB8006817E4 /* ESMigrationDemo_wtchos WatchKit App.app */,
+				1AFA627C25948DB9006817E4 /* ESMigrationDemo_wtchos WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +191,63 @@
 				1AFA620D25944656006817E4 /* Info.plist */,
 			);
 			path = ESMegrationDemo;
+			sourceTree = "<group>";
+		};
+		1AFA622425948C65006817E4 /* ESMigrationDemo_macos */ = {
+			isa = PBXGroup;
+			children = (
+				1AFA622525948C65006817E4 /* AppDelegate.swift */,
+				1AFA622725948C65006817E4 /* ViewController.swift */,
+				1AFA622925948C67006817E4 /* Assets.xcassets */,
+				1AFA622B25948C67006817E4 /* Main.storyboard */,
+				1AFA622E25948C67006817E4 /* Info.plist */,
+				1AFA622F25948C67006817E4 /* ESMigrationDemo_macos.entitlements */,
+			);
+			path = ESMigrationDemo_macos;
+			sourceTree = "<group>";
+		};
+		1AFA623525948C92006817E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AFA624925948D0B006817E4 /* ESMigrationDemo_tvos */ = {
+			isa = PBXGroup;
+			children = (
+				1AFA624A25948D0B006817E4 /* AppDelegate.swift */,
+				1AFA624C25948D0B006817E4 /* ViewController.swift */,
+				1AFA624E25948D0B006817E4 /* Main.storyboard */,
+				1AFA625125948D0D006817E4 /* Assets.xcassets */,
+				1AFA625325948D0D006817E4 /* LaunchScreen.storyboard */,
+				1AFA625625948D0D006817E4 /* Info.plist */,
+			);
+			path = ESMigrationDemo_tvos;
+			sourceTree = "<group>";
+		};
+		1AFA627125948DB8006817E4 /* ESMigrationDemo_wtchos WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1AFA627225948DB8006817E4 /* Interface.storyboard */,
+				1AFA627525948DB9006817E4 /* Assets.xcassets */,
+				1AFA627725948DB9006817E4 /* Info.plist */,
+			);
+			path = "ESMigrationDemo_wtchos WatchKit App";
+			sourceTree = "<group>";
+		};
+		1AFA628025948DB9006817E4 /* ESMigrationDemo_wtchos WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1AFA628125948DB9006817E4 /* InterfaceController.swift */,
+				1AFA628325948DB9006817E4 /* ExtensionDelegate.swift */,
+				1AFA628525948DB9006817E4 /* NotificationController.swift */,
+				1AFA628725948DB9006817E4 /* ComplicationController.swift */,
+				1AFA628925948DBA006817E4 /* Assets.xcassets */,
+				1AFA628B25948DBA006817E4 /* Info.plist */,
+				1AFA628C25948DBA006817E4 /* PushNotificationPayload.apns */,
+			);
+			path = "ESMigrationDemo_wtchos WatchKit Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,6 +273,100 @@
 			productReference = 1AFA61FC25944654006817E4 /* ESMegrationDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1AFA622225948C65006817E4 /* ESMigrationDemo_macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFA623025948C67006817E4 /* Build configuration list for PBXNativeTarget "ESMigrationDemo_macos" */;
+			buildPhases = (
+				1AFA621F25948C65006817E4 /* Sources */,
+				1AFA622025948C65006817E4 /* Frameworks */,
+				1AFA622125948C65006817E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESMigrationDemo_macos;
+			packageProductDependencies = (
+				1AFA623625948C92006817E4 /* ESMigration */,
+			);
+			productName = ESMigrationDemo_macos;
+			productReference = 1AFA622325948C65006817E4 /* ESMigrationDemo_macos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AFA624725948D0B006817E4 /* ESMigrationDemo_tvos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFA625725948D0D006817E4 /* Build configuration list for PBXNativeTarget "ESMigrationDemo_tvos" */;
+			buildPhases = (
+				1AFA624425948D0B006817E4 /* Sources */,
+				1AFA624525948D0B006817E4 /* Frameworks */,
+				1AFA624625948D0B006817E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESMigrationDemo_tvos;
+			packageProductDependencies = (
+				1AFA625D25948D18006817E4 /* ESMigration */,
+			);
+			productName = ESMigrationDemo_tvos;
+			productReference = 1AFA624825948D0B006817E4 /* ESMigrationDemo_tvos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AFA626925948DB8006817E4 /* ESMigrationDemo_wtchos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFA629525948DBA006817E4 /* Build configuration list for PBXNativeTarget "ESMigrationDemo_wtchos" */;
+			buildPhases = (
+				1AFA626825948DB8006817E4 /* Resources */,
+				1AFA629425948DBA006817E4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AFA627025948DB8006817E4 /* PBXTargetDependency */,
+			);
+			name = ESMigrationDemo_wtchos;
+			productName = ESMigrationDemo_wtchos;
+			productReference = 1AFA626A25948DB8006817E4 /* ESMigrationDemo_wtchos.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		1AFA626C25948DB8006817E4 /* ESMigrationDemo_wtchos WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFA629125948DBA006817E4 /* Build configuration list for PBXNativeTarget "ESMigrationDemo_wtchos WatchKit App" */;
+			buildPhases = (
+				1AFA626B25948DB8006817E4 /* Resources */,
+				1AFA629025948DBA006817E4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AFA627F25948DB9006817E4 /* PBXTargetDependency */,
+			);
+			name = "ESMigrationDemo_wtchos WatchKit App";
+			productName = "ESMigrationDemo_wtchos WatchKit App";
+			productReference = 1AFA626D25948DB8006817E4 /* ESMigrationDemo_wtchos WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1AFA627B25948DB9006817E4 /* ESMigrationDemo_wtchos WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFA628D25948DBA006817E4 /* Build configuration list for PBXNativeTarget "ESMigrationDemo_wtchos WatchKit Extension" */;
+			buildPhases = (
+				1AFA627825948DB9006817E4 /* Sources */,
+				1AFA627925948DB9006817E4 /* Frameworks */,
+				1AFA627A25948DB9006817E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ESMigrationDemo_wtchos WatchKit Extension";
+			packageProductDependencies = (
+				1AFA629E25948DC9006817E4 /* ESMigration */,
+			);
+			productName = "ESMigrationDemo_wtchos WatchKit Extension";
+			productReference = 1AFA627C25948DB9006817E4 /* ESMigrationDemo_wtchos WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +377,21 @@
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					1AFA61FB25944654006817E4 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1AFA622225948C65006817E4 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1AFA624725948D0B006817E4 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1AFA626925948DB8006817E4 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1AFA626C25948DB8006817E4 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					1AFA627B25948DB9006817E4 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -123,6 +413,11 @@
 			projectRoot = "";
 			targets = (
 				1AFA61FB25944654006817E4 /* ESMegrationDemo */,
+				1AFA622225948C65006817E4 /* ESMigrationDemo_macos */,
+				1AFA624725948D0B006817E4 /* ESMigrationDemo_tvos */,
+				1AFA626925948DB8006817E4 /* ESMigrationDemo_wtchos */,
+				1AFA626C25948DB8006817E4 /* ESMigrationDemo_wtchos WatchKit App */,
+				1AFA627B25948DB9006817E4 /* ESMigrationDemo_wtchos WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -135,6 +430,49 @@
 				1AFA620C25944656006817E4 /* LaunchScreen.storyboard in Resources */,
 				1AFA620925944656006817E4 /* Assets.xcassets in Resources */,
 				1AFA620725944654006817E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFA622125948C65006817E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFA622A25948C67006817E4 /* Assets.xcassets in Resources */,
+				1AFA622D25948C67006817E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFA624625948D0B006817E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFA625525948D0D006817E4 /* LaunchScreen.storyboard in Resources */,
+				1AFA625225948D0D006817E4 /* Assets.xcassets in Resources */,
+				1AFA625025948D0B006817E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFA626825948DB8006817E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFA626B25948DB8006817E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFA627625948DB9006817E4 /* Assets.xcassets in Resources */,
+				1AFA627425948DB9006817E4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFA627A25948DB9006817E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFA628A25948DBA006817E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +489,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1AFA621F25948C65006817E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFA622825948C65006817E4 /* ViewController.swift in Sources */,
+				1AFA622625948C65006817E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFA624425948D0B006817E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFA624D25948D0B006817E4 /* ViewController.swift in Sources */,
+				1AFA624B25948D0B006817E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFA627825948DB9006817E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFA628625948DB9006817E4 /* NotificationController.swift in Sources */,
+				1AFA628825948DB9006817E4 /* ComplicationController.swift in Sources */,
+				1AFA628425948DB9006817E4 /* ExtensionDelegate.swift in Sources */,
+				1AFA628225948DB9006817E4 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AFA627025948DB8006817E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AFA626C25948DB8006817E4 /* ESMigrationDemo_wtchos WatchKit App */;
+			targetProxy = 1AFA626F25948DB8006817E4 /* PBXContainerItemProxy */;
+		};
+		1AFA627F25948DB9006817E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AFA627B25948DB9006817E4 /* ESMigrationDemo_wtchos WatchKit Extension */;
+			targetProxy = 1AFA627E25948DB9006817E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1AFA620525944654006817E4 /* Main.storyboard */ = {
@@ -168,6 +548,38 @@
 				1AFA620B25944656006817E4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1AFA622B25948C67006817E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AFA622C25948C67006817E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AFA624E25948D0B006817E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AFA624F25948D0B006817E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AFA625325948D0D006817E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AFA625425948D0D006817E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1AFA627225948DB8006817E4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AFA627325948DB9006817E4 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -298,6 +710,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3F47987WD3;
 				INFOPLIST_FILE = ESMegrationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +732,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3F47987WD3;
 				INFOPLIST_FILE = ESMegrationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +742,208 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AFA623125948C67006817E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ESMigrationDemo_macos/ESMigrationDemo_macos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3F47987WD3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ESMigrationDemo_macos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lshxin.ESMigrationDemo-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1AFA623225948C67006817E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ESMigrationDemo_macos/ESMigrationDemo_macos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3F47987WD3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ESMigrationDemo_macos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lshxin.ESMigrationDemo-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1AFA625825948D0D006817E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F47987WD3;
+				INFOPLIST_FILE = ESMigrationDemo_tvos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lshxin.ESMigrationDemo-tvos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+			};
+			name = Debug;
+		};
+		1AFA625925948D0D006817E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F47987WD3;
+				INFOPLIST_FILE = ESMigrationDemo_tvos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lshxin.ESMigrationDemo-tvos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+			};
+			name = Release;
+		};
+		1AFA628E25948DBA006817E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F47987WD3;
+				INFOPLIST_FILE = "ESMigrationDemo_wtchos WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lshxin.ESMigrationDemo-wtchos.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		1AFA628F25948DBA006817E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F47987WD3;
+				INFOPLIST_FILE = "ESMigrationDemo_wtchos WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lshxin.ESMigrationDemo-wtchos.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		1AFA629225948DBA006817E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F47987WD3;
+				IBSC_MODULE = ESMigrationDemo_wtchos_WatchKit_Extension;
+				INFOPLIST_FILE = "ESMigrationDemo_wtchos WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lshxin.ESMigrationDemo-wtchos.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		1AFA629325948DBA006817E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3F47987WD3;
+				IBSC_MODULE = ESMigrationDemo_wtchos_WatchKit_Extension;
+				INFOPLIST_FILE = "ESMigrationDemo_wtchos WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lshxin.ESMigrationDemo-wtchos.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		1AFA629625948DBA006817E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3F47987WD3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lshxin.ESMigrationDemo-wtchos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1AFA629725948DBA006817E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3F47987WD3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lshxin.ESMigrationDemo-wtchos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -352,6 +968,51 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		1AFA623025948C67006817E4 /* Build configuration list for PBXNativeTarget "ESMigrationDemo_macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFA623125948C67006817E4 /* Debug */,
+				1AFA623225948C67006817E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFA625725948D0D006817E4 /* Build configuration list for PBXNativeTarget "ESMigrationDemo_tvos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFA625825948D0D006817E4 /* Debug */,
+				1AFA625925948D0D006817E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFA628D25948DBA006817E4 /* Build configuration list for PBXNativeTarget "ESMigrationDemo_wtchos WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFA628E25948DBA006817E4 /* Debug */,
+				1AFA628F25948DBA006817E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFA629125948DBA006817E4 /* Build configuration list for PBXNativeTarget "ESMigrationDemo_wtchos WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFA629225948DBA006817E4 /* Debug */,
+				1AFA629325948DBA006817E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFA629525948DBA006817E4 /* Build configuration list for PBXNativeTarget "ESMigrationDemo_wtchos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFA629625948DBA006817E4 /* Debug */,
+				1AFA629725948DBA006817E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -367,6 +1028,21 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		1AFA6216259487A5006817E4 /* ESMigration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AFA6215259487A5006817E4 /* XCRemoteSwiftPackageReference "ESMigration" */;
+			productName = ESMigration;
+		};
+		1AFA623625948C92006817E4 /* ESMigration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AFA6215259487A5006817E4 /* XCRemoteSwiftPackageReference "ESMigration" */;
+			productName = ESMigration;
+		};
+		1AFA625D25948D18006817E4 /* ESMigration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AFA6215259487A5006817E4 /* XCRemoteSwiftPackageReference "ESMigration" */;
+			productName = ESMigration;
+		};
+		1AFA629E25948DC9006817E4 /* ESMigration */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 1AFA6215259487A5006817E4 /* XCRemoteSwiftPackageReference "ESMigration" */;
 			productName = ESMigration;
