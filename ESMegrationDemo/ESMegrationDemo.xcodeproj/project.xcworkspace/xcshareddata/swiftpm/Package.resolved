@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ESMigration",
+        "repositoryURL": "https://github.com/KKLater/ESMigration.git",
+        "state": {
+          "branch": "main",
+          "revision": "3efa56834acd6a7b558ded57bbee613c1673853e",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

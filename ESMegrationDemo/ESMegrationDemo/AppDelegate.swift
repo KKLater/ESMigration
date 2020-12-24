@@ -6,15 +6,58 @@
 //
 
 import UIKit
+import ESMigration
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    func migrationApp() {        
+        Migration.App.migration(to: "1.1.0") {
+            print("AppDelegate: Do migration App to 1.1.0")
+        }
+        
+        Migration.App.migration(to: "2.2.0") {
+            print("AppDelegate: Do migration App to 2.2.0")
+        }
+        
+        Migration.App.update {
+            print("AppDelegate: Do update App to 2.2.0")
+        }
+    }
+    
+    func migrationBuild() {
+        Migration.Build.migration(to: "1.1.0") {
+            print("AppDelegate: Do migration build to 1.1.0")
+        }
+        
+        Migration.Build.migration(to: "2.2.0") {
+            print("AppDelegate: Do migration build to 2.2.0")
+        }
+        
+        Migration.Build.update {
+            print("AppDelegate: Do update build to 2.2.0")
 
+        }
+    }
+    
+    func reset() {
+        Migration.App.reset()
+        Migration.Build.reset()
+
+    }
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
+        /// 修改 demo 的App 版本号和build版本号，看打印输出
+        /// migration App version
+        migrationApp()
         
+        /// migration Build Version
+        migrationBuild()
+        
+        /// 还原
+//        reset()
         return true
     }
 

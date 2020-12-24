@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		1AFA620725944654006817E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA620525944654006817E4 /* Main.storyboard */; };
 		1AFA620925944656006817E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA620825944656006817E4 /* Assets.xcassets */; };
 		1AFA620C25944656006817E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA620A25944656006817E4 /* LaunchScreen.storyboard */; };
+		1AFA6217259487A5006817E4 /* ESMigration in Frameworks */ = {isa = PBXBuildFile; productRef = 1AFA6216259487A5006817E4 /* ESMigration */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AFA6217259487A5006817E4 /* ESMigration in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = ESMegrationDemo;
+			packageProductDependencies = (
+				1AFA6216259487A5006817E4 /* ESMigration */,
+			);
 			productName = ESMegrationDemo;
 			productReference = 1AFA61FC25944654006817E4 /* ESMegrationDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +115,9 @@
 				Base,
 			);
 			mainGroup = 1AFA61F325944654006817E4;
+			packageReferences = (
+				1AFA6215259487A5006817E4 /* XCRemoteSwiftPackageReference "ESMigration" */,
+			);
 			productRefGroup = 1AFA61FD25944654006817E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -287,12 +295,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3F47987WD3;
 				INFOPLIST_FILE = ESMegrationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lshxin.ESMegrationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -306,12 +316,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3F47987WD3;
 				INFOPLIST_FILE = ESMegrationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lshxin.ESMegrationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -341,6 +353,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1AFA6215259487A5006817E4 /* XCRemoteSwiftPackageReference "ESMigration" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KKLater/ESMigration.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1AFA6216259487A5006817E4 /* ESMigration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AFA6215259487A5006817E4 /* XCRemoteSwiftPackageReference "ESMigration" */;
+			productName = ESMigration;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1AFA61F425944654006817E4 /* Project object */;
 }
