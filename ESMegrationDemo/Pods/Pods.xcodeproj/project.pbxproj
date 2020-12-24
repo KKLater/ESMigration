@@ -1,0 +1,2160 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005570B4B52FA88B89360B9DF4F1920F /* Pods-ESMigrationDemo_macos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE81B32B546E58FA430F7C63208F13B /* Pods-ESMigrationDemo_macos-dummy.m */; };
+		0790BD3F689D3A0D3EB58C7AACE865CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E1B4BA7C929307A0998E4DB5C1813B /* Foundation.framework */; };
+		0B6844747E8EDB548FCDAACD1C13F473 /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0CE54058177318064BD2EBA00DE3B /* Migration.swift */; };
+		104C8032E1883003C98C0D5F7BA4CE27 /* ESMigration-iOS14.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB79BA59154AC0128E748532FAE6A0BC /* ESMigration-iOS14.3-dummy.m */; };
+		14B98BE986B39AA38A009B661881BD9D /* ESMigration-watchOS7.2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDF9BEAB81C4C509B457D6E9E1F8D4ED /* ESMigration-watchOS7.2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		156C057C5BA9091A7E13DEE305D0DEA7 /* ESMigration-iOS10.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E7685852F3A058A6F9BAC3A1D33DCD7 /* ESMigration-iOS10.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1604459D2E67E192BB318B47ABDCD414 /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0CE54058177318064BD2EBA00DE3B /* Migration.swift */; };
+		1612F71D2583FADEFCFBFDF67B0B8C53 /* ESMigration-macOS10.10-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF35F47636EEC0F471A80C52689B1CE9 /* ESMigration-macOS10.10-dummy.m */; };
+		204050DB3974EA55872F19A1D4BE1890 /* Pods-ESMegrationDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67783B1FC5C7911D96BB58F22489C512 /* Pods-ESMegrationDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		282ADCD99354D36FD1581D15B316F7A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ACB1ABBCF103037047D514ED33AC13 /* Foundation.framework */; };
+		31848A4F66B411A5A1CC4957992F26D7 /* ESMigration-tvOS14.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2659FD681E033C3B880EEA174F343ED6 /* ESMigration-tvOS14.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39527B18EC22C227DE9255459F79C965 /* ESMigration-iOS10.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 218D09B380381548C6340D580CF9AB05 /* ESMigration-iOS10.0-dummy.m */; };
+		403BF38D9A71EDA7848778BA671417CA /* Pods-ESMigrationDemo_tvos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBC491B9DA65C7540C5CDCABCF0C39F /* Pods-ESMigrationDemo_tvos-dummy.m */; };
+		48DA6FD6001B2D38B10FFB3758FC3B8B /* ESMigration-tvOS14.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2117EBD71DEF3ADB6CC0956F9E1BF6D /* ESMigration-tvOS14.3-dummy.m */; };
+		4F6841D244DEB6FA7470B4B70EA354E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ACB1ABBCF103037047D514ED33AC13 /* Foundation.framework */; };
+		6BFBA0F820364E788F398870A704C1C5 /* ESMigration-iOS14.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A803DDEC1B077D22243F8C45D6DC2239 /* ESMigration-iOS14.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72E31C337AB71C72CA1D4678C6C8F232 /* Pods-ESMigrationDemo_wtchos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A16FA811CF38BB70390919ED55EB9573 /* Pods-ESMigrationDemo_wtchos-dummy.m */; };
+		72F900086845162E42185AFB5B34C8A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E1B4BA7C929307A0998E4DB5C1813B /* Foundation.framework */; };
+		73DBC6EBC700B2A2E839C15674D93E8E /* Pods-ESMigrationDemo_macos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F26E908E18D02C770D47706D526221DD /* Pods-ESMigrationDemo_macos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A40889CB593C976E6DD0FA274EB4A91 /* Pods-ESMigrationDemo_wtchos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B112BB133245F74A1902AB37457999D1 /* Pods-ESMigrationDemo_wtchos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88BC3770A5DA6FD90FD49310A8C3A27A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ACB1ABBCF103037047D514ED33AC13 /* Foundation.framework */; };
+		9903E62BDB1AF0E14874587FCC1129E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215EF51E666DBD1701D905B63B89B554 /* Foundation.framework */; };
+		99B9AD31C7634751AB1675DB4EE9E3B8 /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0CE54058177318064BD2EBA00DE3B /* Migration.swift */; };
+		9D46A8FA76555A684CB8D32CC9DC1DD1 /* Pods-ESMigrationDemo_wtchos WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C74C22C277DF3784AE3CBCFF163266E /* Pods-ESMigrationDemo_wtchos WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DE8DC183EDBCAFA87A85D35F99561BD /* ESMigration-watchOS7.2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F72D008DB9EA2CDC7724EF91DCCCD80 /* ESMigration-watchOS7.2-dummy.m */; };
+		A54D46D0BC7ECEE430FEA14EB4CE986B /* Pods-ESMigrationDemo_wtchos WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 551068811083C691B8C4B67E64AF2A20 /* Pods-ESMigrationDemo_wtchos WatchKit App-dummy.m */; };
+		AFA025D99A00602C85AE6EA55BFFBF9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E1B4BA7C929307A0998E4DB5C1813B /* Foundation.framework */; };
+		B95323811D7889E92A27BDDE809E718F /* Pods-ESMigrationDemo_wtchos WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 880092283388FE3E0C9DCD7685E97551 /* Pods-ESMigrationDemo_wtchos WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C36DBAC16A6CDBA823AE728DDF14D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E1B4BA7C929307A0998E4DB5C1813B /* Foundation.framework */; };
+		C63B8A6AD6127CDF6E1F6899FCB46CD2 /* ESMigration-macOS10.10-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA51D50E9048A8E9C68DEDE23CA25C90 /* ESMigration-macOS10.10-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA5003BAA7EE0D7005C22346FFC576F8 /* Pods-ESMegrationDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CD5504E07E2E4EC409F10E1A24EF56 /* Pods-ESMegrationDemo-dummy.m */; };
+		D20D0F17F58B146F449686049FA60DFC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6525C631577BA65AD49507D5BB6CCA8F /* Cocoa.framework */; };
+		D95DD2A6700F144629388949F155FB38 /* Pods-ESMigrationDemo_wtchos WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD428FB8E0BDC061EFC198ED72FF19 /* Pods-ESMigrationDemo_wtchos WatchKit Extension-dummy.m */; };
+		DE689A9011BC5D38230949CEB1094C56 /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0CE54058177318064BD2EBA00DE3B /* Migration.swift */; };
+		ED74512F3D4E4A62E80FCD9868EFF24C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6525C631577BA65AD49507D5BB6CCA8F /* Cocoa.framework */; };
+		F2478A88CFC9B1D6AB1F0E84990068B0 /* Pods-ESMigrationDemo_tvos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4413262F99E57B9D57A8FE1398B221C3 /* Pods-ESMigrationDemo_tvos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9915B17610848CC4A18146A4CD1C9B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215EF51E666DBD1701D905B63B89B554 /* Foundation.framework */; };
+		FDC2FA7057483229F72A78255A6F6489 /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB0CE54058177318064BD2EBA00DE3B /* Migration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D47D55628E99394F36304585C76CCC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7571D9A22E27103F2946A1DA9E3CD16;
+			remoteInfo = "ESMigration-iOS14.3";
+		};
+		2900B54A1AE3B3A79ADB8ED1CF8D01DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3760C3017567A3FB361D1E6C5A5F2A3;
+			remoteInfo = "ESMigration-macOS10.10";
+		};
+		4309A415ADEB64256456B136C221B511 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13FD783E9340EBFEEC54B034CD9E7BB0;
+			remoteInfo = "ESMigration-tvOS14.3";
+		};
+		ABB660640BF5E6033B947D2836FB25E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13D75F1F0A4B91612D5559AF80B049F0;
+			remoteInfo = "ESMigration-watchOS7.2";
+		};
+		B3E35874A523C4104077A4072AC871B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13D75F1F0A4B91612D5559AF80B049F0;
+			remoteInfo = "ESMigration-watchOS7.2";
+		};
+		F5976F8F951754498F74FDAD122496E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 303BB36588CE9E592C5A3F3CE6C9B078;
+			remoteInfo = "ESMigration-iOS10.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012A8173BB79D2346568E009D8223AAB /* ESMigration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ESMigration.framework; path = "ESMigration-iOS10.0.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0182883E875B6A1043F9464EF285D54B /* ESMigration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ESMigration.framework; path = "ESMigration-watchOS7.2.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0587C22AF2005037C0C7EB86FCA52851 /* ESMigration-iOS10.0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ESMigration-iOS10.0-Info.plist"; sourceTree = "<group>"; };
+		0628ADC5DF79EE3375813B23F244AED5 /* ESMigration-tvOS14.3-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ESMigration-tvOS14.3-Info.plist"; path = "../ESMigration-tvOS14.3/ESMigration-tvOS14.3-Info.plist"; sourceTree = "<group>"; };
+		0980C6E0B3988C6297E55BF2F5D06ABF /* Pods-ESMigrationDemo_wtchos WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ESMigrationDemo_wtchos WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
+		0985D00E83C06C0B8CEF677CF7A7666B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0D54010677B16490D9700BFE36E8D559 /* Pods-ESMigrationDemo_wtchos WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ESMigrationDemo_wtchos WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DE81B32B546E58FA430F7C63208F13B /* Pods-ESMigrationDemo_macos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ESMigrationDemo_macos-dummy.m"; sourceTree = "<group>"; };
+		0ED6B6040E9A76D5EF91FC3FF5E562D7 /* Pods-ESMegrationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESMegrationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		10B48380BBB3D5C826B2D75903F18B73 /* Pods-ESMigrationDemo_wtchos WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESMigrationDemo_wtchos WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		10C691CD2BB3B2E2C5B7B161CCABAC05 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		10D114E032B01BDB268EDF83DBC76D4E /* ESMigration-macOS10.10-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ESMigration-macOS10.10-Info.plist"; path = "../ESMigration-macOS10.10/ESMigration-macOS10.10-Info.plist"; sourceTree = "<group>"; };
+		13CBB30035B61997C239402C3892AAB8 /* Pods_ESMigrationDemo_wtchos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ESMigrationDemo_wtchos.framework; path = "Pods-ESMigrationDemo_wtchos.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16CD5504E07E2E4EC409F10E1A24EF56 /* Pods-ESMegrationDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ESMegrationDemo-dummy.m"; sourceTree = "<group>"; };
+		17CEDE628609EF592DBBEC51EF0EA8A4 /* Pods-ESMigrationDemo_wtchos WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESMigrationDemo_wtchos WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		21312A00272F321EC155A00D0F13932A /* Pods-ESMigrationDemo_wtchos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESMigrationDemo_wtchos.debug.xcconfig"; sourceTree = "<group>"; };
+		215EF51E666DBD1701D905B63B89B554 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		218D09B380381548C6340D580CF9AB05 /* ESMigration-iOS10.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESMigration-iOS10.0-dummy.m"; sourceTree = "<group>"; };
+		21DE334B8E0957EE38C3DE96C7381B1E /* Pods-ESMigrationDemo_macos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESMigrationDemo_macos-Info.plist"; sourceTree = "<group>"; };
+		22BB906E6402615CB4541BCD70729004 /* Pods-ESMigrationDemo_wtchos WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESMigrationDemo_wtchos WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
+		2659FD681E033C3B880EEA174F343ED6 /* ESMigration-tvOS14.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ESMigration-tvOS14.3-umbrella.h"; path = "../ESMigration-tvOS14.3/ESMigration-tvOS14.3-umbrella.h"; sourceTree = "<group>"; };
+		2AA9DA47B1B223E1C7F08E741192F16B /* ESMigration-iOS14.3-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ESMigration-iOS14.3-Info.plist"; path = "../ESMigration-iOS14.3/ESMigration-iOS14.3-Info.plist"; sourceTree = "<group>"; };
+		2C74C22C277DF3784AE3CBCFF163266E /* Pods-ESMigrationDemo_wtchos WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ESMigrationDemo_wtchos WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
+		2D717019CE882775EB09F66B9F14B492 /* ESMigration-watchOS7.2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ESMigration-watchOS7.2.debug.xcconfig"; path = "../ESMigration-watchOS7.2/ESMigration-watchOS7.2.debug.xcconfig"; sourceTree = "<group>"; };
+		32ACB1ABBCF103037047D514ED33AC13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34BEF65B79BD8B269E5CC2216A4D5601 /* ESMigration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ESMigration.framework; path = "ESMigration-macOS10.10.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B26ACEDB25CC2DEEBF5B2388AD1870A /* Pods-ESMigrationDemo_wtchos-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ESMigrationDemo_wtchos-frameworks.sh"; sourceTree = "<group>"; };
+		3EC77237A2727F1452E1E2BA5AE41D1A /* Pods-ESMigrationDemo_tvos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESMigrationDemo_tvos-Info.plist"; sourceTree = "<group>"; };
+		4107C46A466C64A7D267E2DAFE4826D9 /* Pods-ESMigrationDemo_macos-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ESMigrationDemo_macos-frameworks.sh"; sourceTree = "<group>"; };
+		4335788DFD5FA0CD690CE1574C171832 /* ESMigration-watchOS7.2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "ESMigration-watchOS7.2.modulemap"; path = "../ESMigration-watchOS7.2/ESMigration-watchOS7.2.modulemap"; sourceTree = "<group>"; };
+		4413262F99E57B9D57A8FE1398B221C3 /* Pods-ESMigrationDemo_tvos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ESMigrationDemo_tvos-umbrella.h"; sourceTree = "<group>"; };
+		45C5E1F6EFF8DFEC019B85C2A495C385 /* Pods-ESMigrationDemo_wtchos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESMigrationDemo_wtchos-acknowledgements.plist"; sourceTree = "<group>"; };
+		48B0A333FA0EB4AECE563D8F88698E47 /* Pods-ESMigrationDemo_macos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ESMigrationDemo_macos.modulemap"; sourceTree = "<group>"; };
+		49B68623D0AEA4A2C8513691A0BF2D2A /* Pods-ESMigrationDemo_wtchos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESMigrationDemo_wtchos.release.xcconfig"; sourceTree = "<group>"; };
+		49C1B3E5A428738F4102819B686DD5C3 /* Pods-ESMigrationDemo_wtchos WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESMigrationDemo_wtchos WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		505BC7E7980D153019E96884CE7728FC /* ESMigration-tvOS14.3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ESMigration-tvOS14.3.debug.xcconfig"; path = "../ESMigration-tvOS14.3/ESMigration-tvOS14.3.debug.xcconfig"; sourceTree = "<group>"; };
+		551068811083C691B8C4B67E64AF2A20 /* Pods-ESMigrationDemo_wtchos WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ESMigrationDemo_wtchos WatchKit App-dummy.m"; sourceTree = "<group>"; };
+		578ACB698A085A7845789ACFB5B71F67 /* Pods-ESMigrationDemo_wtchos WatchKit Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESMigrationDemo_wtchos WatchKit Extension-Info.plist"; sourceTree = "<group>"; };
+		5F965147700DFEA7038FCEC8E5DE3310 /* Pods-ESMigrationDemo_wtchos WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ESMigrationDemo_wtchos WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F98DB9999A135E75299C7AB0385C660 /* Pods-ESMigrationDemo_wtchos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESMigrationDemo_wtchos-Info.plist"; sourceTree = "<group>"; };
+		645B64805580F61DF5F87382DE4DAD83 /* ESMigration-watchOS7.2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ESMigration-watchOS7.2-prefix.pch"; path = "../ESMigration-watchOS7.2/ESMigration-watchOS7.2-prefix.pch"; sourceTree = "<group>"; };
+		6525C631577BA65AD49507D5BB6CCA8F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		6677EB19FD9BA4FBBE7950EC67E3514D /* Pods-ESMigrationDemo_macos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESMigrationDemo_macos.debug.xcconfig"; sourceTree = "<group>"; };
+		67783B1FC5C7911D96BB58F22489C512 /* Pods-ESMegrationDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ESMegrationDemo-umbrella.h"; sourceTree = "<group>"; };
+		686B659B26F51C8A4D12E10AEBD17D5C /* Pods-ESMigrationDemo_tvos-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ESMigrationDemo_tvos-frameworks.sh"; sourceTree = "<group>"; };
+		68D99E7DA13919FD748A9A79C9ED3B3A /* Pods-ESMigrationDemo_tvos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESMigrationDemo_tvos.debug.xcconfig"; sourceTree = "<group>"; };
+		6927C8191C7B7F03FD0E468B0AC05895 /* Pods-ESMigrationDemo_tvos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ESMigrationDemo_tvos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6B17A2356BC64E0EF870E47978DA140C /* ESMigration-iOS10.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ESMigration-iOS10.0.release.xcconfig"; sourceTree = "<group>"; };
+		6DEAC530D18708952B1C947DDB830968 /* Pods-ESMigrationDemo_macos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ESMigrationDemo_macos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6ECD428FB8E0BDC061EFC198ED72FF19 /* Pods-ESMigrationDemo_wtchos WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ESMigrationDemo_wtchos WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		724C7D9D2700F3C94A4116D317D1FD7C /* ESMigration.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ESMigration.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7303E0CEB11C51103AD67907450044DF /* Pods_ESMigrationDemo_macos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ESMigrationDemo_macos.framework; path = "Pods-ESMigrationDemo_macos.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		763E6B674530E8AEA0453A7B51E9B892 /* Pods-ESMigrationDemo_wtchos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ESMigrationDemo_wtchos.modulemap"; sourceTree = "<group>"; };
+		7B7CABF1406ABF0F85C6C322E337B5D8 /* Pods-ESMegrationDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ESMegrationDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E7685852F3A058A6F9BAC3A1D33DCD7 /* ESMigration-iOS10.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESMigration-iOS10.0-umbrella.h"; sourceTree = "<group>"; };
+		841512B2B4DDE99682F0E20E25AE7172 /* ESMigration-iOS14.3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ESMigration-iOS14.3.release.xcconfig"; path = "../ESMigration-iOS14.3/ESMigration-iOS14.3.release.xcconfig"; sourceTree = "<group>"; };
+		87F54CA877FD03FB9621D7B9C66FAA9C /* ESMigration-tvOS14.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ESMigration-tvOS14.3-prefix.pch"; path = "../ESMigration-tvOS14.3/ESMigration-tvOS14.3-prefix.pch"; sourceTree = "<group>"; };
+		880092283388FE3E0C9DCD7685E97551 /* Pods-ESMigrationDemo_wtchos WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ESMigrationDemo_wtchos WatchKit App-umbrella.h"; sourceTree = "<group>"; };
+		8A521BB7CB43EDE9479CC86D2498FCEB /* Pods_ESMigrationDemo_tvos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ESMigrationDemo_tvos.framework; path = "Pods-ESMigrationDemo_tvos.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C8F24790C358F5430E9DB00BA3B331E /* ESMigration-watchOS7.2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ESMigration-watchOS7.2-Info.plist"; path = "../ESMigration-watchOS7.2/ESMigration-watchOS7.2-Info.plist"; sourceTree = "<group>"; };
+		8C9D1B7B00C8F4B5B7C152906F6962DB /* ESMigration-macOS10.10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ESMigration-macOS10.10.debug.xcconfig"; path = "../ESMigration-macOS10.10/ESMigration-macOS10.10.debug.xcconfig"; sourceTree = "<group>"; };
+		8F72D008DB9EA2CDC7724EF91DCCCD80 /* ESMigration-watchOS7.2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ESMigration-watchOS7.2-dummy.m"; path = "../ESMigration-watchOS7.2/ESMigration-watchOS7.2-dummy.m"; sourceTree = "<group>"; };
+		97C86B1C1210E5D8E9D06DA932DE6590 /* ESMigration-watchOS7.2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ESMigration-watchOS7.2.release.xcconfig"; path = "../ESMigration-watchOS7.2/ESMigration-watchOS7.2.release.xcconfig"; sourceTree = "<group>"; };
+		991F9C1D12A2C62AAC5AB48FDACF2B19 /* ESMigration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ESMigration.framework; path = "ESMigration-iOS14.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ADA4D28A9326559AF7B4653C52E35F0 /* ESMigration-tvOS14.3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ESMigration-tvOS14.3.release.xcconfig"; path = "../ESMigration-tvOS14.3/ESMigration-tvOS14.3.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A00C9BFDCEC2D66A882F1F8A8352FC43 /* ESMigration-iOS10.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESMigration-iOS10.0-prefix.pch"; sourceTree = "<group>"; };
+		A16FA811CF38BB70390919ED55EB9573 /* Pods-ESMigrationDemo_wtchos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ESMigrationDemo_wtchos-dummy.m"; sourceTree = "<group>"; };
+		A2117EBD71DEF3ADB6CC0956F9E1BF6D /* ESMigration-tvOS14.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ESMigration-tvOS14.3-dummy.m"; path = "../ESMigration-tvOS14.3/ESMigration-tvOS14.3-dummy.m"; sourceTree = "<group>"; };
+		A237AC64785EFC6CD7AEEBBA4B037E0B /* Pods-ESMigrationDemo_macos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESMigrationDemo_macos-acknowledgements.plist"; sourceTree = "<group>"; };
+		A803DDEC1B077D22243F8C45D6DC2239 /* ESMigration-iOS14.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ESMigration-iOS14.3-umbrella.h"; path = "../ESMigration-iOS14.3/ESMigration-iOS14.3-umbrella.h"; sourceTree = "<group>"; };
+		A90DCABE53176DF0AB2EED56F512E5D3 /* Pods-ESMegrationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESMegrationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A9FBF36619B96A9656B6EC6866392347 /* ESMigration-iOS10.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ESMigration-iOS10.0.debug.xcconfig"; sourceTree = "<group>"; };
+		AA51D50E9048A8E9C68DEDE23CA25C90 /* ESMigration-macOS10.10-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ESMigration-macOS10.10-umbrella.h"; path = "../ESMigration-macOS10.10/ESMigration-macOS10.10-umbrella.h"; sourceTree = "<group>"; };
+		AAB0CE54058177318064BD2EBA00DE3B /* Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Migration.swift; path = Sources/ESMigration/Migration.swift; sourceTree = "<group>"; };
+		AC3E09A275369B4005181808254775C3 /* ESMigration-iOS10.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ESMigration-iOS10.0.modulemap"; sourceTree = "<group>"; };
+		AD01E91EF80C0E0324BA3F269A5A48DA /* Pods-ESMegrationDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ESMegrationDemo-frameworks.sh"; sourceTree = "<group>"; };
+		ADB6F5F4AA303F087E387D8FE61C0AA1 /* Pods-ESMigrationDemo_wtchos WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ESMigrationDemo_wtchos WatchKit App.modulemap"; sourceTree = "<group>"; };
+		AEB38AF16FACB2E0136125A25BDDE05A /* ESMigration-iOS14.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ESMigration-iOS14.3-prefix.pch"; path = "../ESMigration-iOS14.3/ESMigration-iOS14.3-prefix.pch"; sourceTree = "<group>"; };
+		B018E97C6A9E53041EFC152AAADB9D5C /* ESMigration-iOS14.3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ESMigration-iOS14.3.debug.xcconfig"; path = "../ESMigration-iOS14.3/ESMigration-iOS14.3.debug.xcconfig"; sourceTree = "<group>"; };
+		B112BB133245F74A1902AB37457999D1 /* Pods-ESMigrationDemo_wtchos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ESMigrationDemo_wtchos-umbrella.h"; sourceTree = "<group>"; };
+		B3099068AFA72B9239517CB348E5A279 /* Pods-ESMigrationDemo_wtchos WatchKit App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESMigrationDemo_wtchos WatchKit App-Info.plist"; sourceTree = "<group>"; };
+		B3E011AAEE068F2A4F9A0102A9664E58 /* Pods-ESMigrationDemo_wtchos WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESMigrationDemo_wtchos WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		B4D133BBFE4BBC8EAE5CA095757BFB15 /* ESMigration-macOS10.10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "ESMigration-macOS10.10.release.xcconfig"; path = "../ESMigration-macOS10.10/ESMigration-macOS10.10.release.xcconfig"; sourceTree = "<group>"; };
+		B7E1B4BA7C929307A0998E4DB5C1813B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BB79BA59154AC0128E748532FAE6A0BC /* ESMigration-iOS14.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ESMigration-iOS14.3-dummy.m"; path = "../ESMigration-iOS14.3/ESMigration-iOS14.3-dummy.m"; sourceTree = "<group>"; };
+		BDF9BEAB81C4C509B457D6E9E1F8D4ED /* ESMigration-watchOS7.2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ESMigration-watchOS7.2-umbrella.h"; path = "../ESMigration-watchOS7.2/ESMigration-watchOS7.2-umbrella.h"; sourceTree = "<group>"; };
+		BF4CB2CF8A6497FB783A0A27522E004A /* Pods-ESMigrationDemo_wtchos WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ESMigrationDemo_wtchos WatchKit Extension.modulemap"; sourceTree = "<group>"; };
+		C08D388B2A87D599D9C9B88933D0FBC5 /* Pods-ESMigrationDemo_tvos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ESMigrationDemo_tvos.modulemap"; sourceTree = "<group>"; };
+		C3A1DEF77C689D125A7935BB0F736CA7 /* ESMigration-macOS10.10.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "ESMigration-macOS10.10.modulemap"; path = "../ESMigration-macOS10.10/ESMigration-macOS10.10.modulemap"; sourceTree = "<group>"; };
+		C9D1124527D9D8B5942E5BE7EB017A16 /* Pods-ESMigrationDemo_macos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESMigrationDemo_macos.release.xcconfig"; sourceTree = "<group>"; };
+		D52F206543105B763D38283C15FF9EC7 /* Pods-ESMigrationDemo_wtchos WatchKit App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ESMigrationDemo_wtchos WatchKit App-frameworks.sh"; sourceTree = "<group>"; };
+		D80B3CF335C60D6554A8BE27C3CD5590 /* ESMigration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ESMigration.framework; path = "ESMigration-tvOS14.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB655E0887CDA1A3979CE1750E661B83 /* Pods-ESMigrationDemo_wtchos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ESMigrationDemo_wtchos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DCF6196D944AB2B5014B080A6578A27D /* Pods-ESMigrationDemo_tvos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESMigrationDemo_tvos.release.xcconfig"; sourceTree = "<group>"; };
+		DDBC491B9DA65C7540C5CDCABCF0C39F /* Pods-ESMigrationDemo_tvos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ESMigrationDemo_tvos-dummy.m"; sourceTree = "<group>"; };
+		DF35F47636EEC0F471A80C52689B1CE9 /* ESMigration-macOS10.10-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ESMigration-macOS10.10-dummy.m"; path = "../ESMigration-macOS10.10/ESMigration-macOS10.10-dummy.m"; sourceTree = "<group>"; };
+		E1789F813FBC7CFCF70750F7C4ED049D /* Pods-ESMegrationDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ESMegrationDemo.modulemap"; sourceTree = "<group>"; };
+		E33FE99967AF49DE05FD41C9832B7FFF /* Pods-ESMigrationDemo_wtchos WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ESMigrationDemo_wtchos WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		E5F17D50E9E4DD53CC2022492AB097EA /* Pods-ESMegrationDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESMegrationDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA95446DE450B41E35BD28558198102A /* ESMigration-tvOS14.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "ESMigration-tvOS14.3.modulemap"; path = "../ESMigration-tvOS14.3/ESMigration-tvOS14.3.modulemap"; sourceTree = "<group>"; };
+		EC5816D81E1F511277129AF60E9EB66D /* Pods_ESMigrationDemo_wtchos_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ESMigrationDemo_wtchos_WatchKit_Extension.framework; path = "Pods-ESMigrationDemo_wtchos WatchKit Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECEF7D355B98B6B189FA22361FFC9A43 /* ESMigration-iOS14.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "ESMigration-iOS14.3.modulemap"; path = "../ESMigration-iOS14.3/ESMigration-iOS14.3.modulemap"; sourceTree = "<group>"; };
+		F26E908E18D02C770D47706D526221DD /* Pods-ESMigrationDemo_macos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ESMigrationDemo_macos-umbrella.h"; sourceTree = "<group>"; };
+		F4A07BDB2FE3541DCE79BBB87B0269FB /* Pods_ESMegrationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ESMegrationDemo.framework; path = "Pods-ESMegrationDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AD430598A30CE2F2D195509E232F3E /* Pods-ESMegrationDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESMegrationDemo-Info.plist"; sourceTree = "<group>"; };
+		FBA20426E54A87FBD667B198AEAF52DE /* ESMigration-macOS10.10-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ESMigration-macOS10.10-prefix.pch"; path = "../ESMigration-macOS10.10/ESMigration-macOS10.10-prefix.pch"; sourceTree = "<group>"; };
+		FD18F9FA6815A021EEC4BFA588322FDA /* Pods-ESMigrationDemo_tvos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ESMigrationDemo_tvos-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD43C3F1BAFDEBAA5F1685F4B89A4330 /* Pods_ESMigrationDemo_wtchos_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ESMigrationDemo_wtchos_WatchKit_App.framework; path = "Pods-ESMigrationDemo_wtchos WatchKit App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21A22194AF461AFF9E7DD66A4D60D8B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9903E62BDB1AF0E14874587FCC1129E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E9E2BF334F15ACD8F2057662C09414C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0790BD3F689D3A0D3EB58C7AACE865CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D97FB048A9C0B43C3D4AF337207AFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C36DBAC16A6CDBA823AE728DDF14D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C71F58EF8C48A914F51317825E23556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA025D99A00602C85AE6EA55BFFBF9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EAB8DF5EF1BE2046EBDAD501EEFD1D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88BC3770A5DA6FD90FD49310A8C3A27A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9290CB8BF26B27045F4A8F7A06AF05FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9915B17610848CC4A18146A4CD1C9B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C32B2BA0F70F9CC2A74122D33E38352E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F6841D244DEB6FA7470B4B70EA354E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E156B0AE63ED31F627A83168225AC7C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F900086845162E42185AFB5B34C8A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB696BD6ED0E1B41CEF2283412828A3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20D0F17F58B146F449686049FA60DFC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04D3FC5711325DC48ADF16166076122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282ADCD99354D36FD1581D15B316F7A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23844E3EFC41365F31961962E745E26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED74512F3D4E4A62E80FCD9868EFF24C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F47FB2AD9E067738EF085C392E474D4 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				32ACB1ABBCF103037047D514ED33AC13 /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		3EF359F2E189615AE61D46BAD9A2390B /* Pods-ESMigrationDemo_wtchos WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BF4CB2CF8A6497FB783A0A27522E004A /* Pods-ESMigrationDemo_wtchos WatchKit Extension.modulemap */,
+				5F965147700DFEA7038FCEC8E5DE3310 /* Pods-ESMigrationDemo_wtchos WatchKit Extension-acknowledgements.markdown */,
+				49C1B3E5A428738F4102819B686DD5C3 /* Pods-ESMigrationDemo_wtchos WatchKit Extension-acknowledgements.plist */,
+				6ECD428FB8E0BDC061EFC198ED72FF19 /* Pods-ESMigrationDemo_wtchos WatchKit Extension-dummy.m */,
+				0980C6E0B3988C6297E55BF2F5D06ABF /* Pods-ESMigrationDemo_wtchos WatchKit Extension-frameworks.sh */,
+				578ACB698A085A7845789ACFB5B71F67 /* Pods-ESMigrationDemo_wtchos WatchKit Extension-Info.plist */,
+				2C74C22C277DF3784AE3CBCFF163266E /* Pods-ESMigrationDemo_wtchos WatchKit Extension-umbrella.h */,
+				E33FE99967AF49DE05FD41C9832B7FFF /* Pods-ESMigrationDemo_wtchos WatchKit Extension.debug.xcconfig */,
+				B3E011AAEE068F2A4F9A0102A9664E58 /* Pods-ESMigrationDemo_wtchos WatchKit Extension.release.xcconfig */,
+			);
+			name = "Pods-ESMigrationDemo_wtchos WatchKit Extension";
+			path = "Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		42736AF6DA07F3A1B6C8EE7986DCF766 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4CEC9BFE8CE53C3FBE786943557EF3F /* Pods-ESMegrationDemo */,
+				A5BA2E0DB9FEADAE46DC291442476877 /* Pods-ESMigrationDemo_macos */,
+				EA6976EB6D8CFB186B898B8248086A9F /* Pods-ESMigrationDemo_tvos */,
+				D7009CD44AB2671381C5089A78824F34 /* Pods-ESMigrationDemo_wtchos */,
+				C00F17CF9C87483F85151F91ACFB9B47 /* Pods-ESMigrationDemo_wtchos WatchKit App */,
+				3EF359F2E189615AE61D46BAD9A2390B /* Pods-ESMigrationDemo_wtchos WatchKit Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		569FEB354BA766E9932FAAD6F5A65DAC /* ESMigration */ = {
+			isa = PBXGroup;
+			children = (
+				AAB0CE54058177318064BD2EBA00DE3B /* Migration.swift */,
+				7761FDC6450DEA90D37D151384B3250B /* Pod */,
+				A6703B1644A6EC793853162FBC2A46BC /* Support Files */,
+			);
+			name = ESMigration;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5A4D21523E5EB6778702CACF7C410915 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C78A157E017DAF52F02BDB84F153E74D /* iOS */,
+				EA2AC34D7EEA463B86B7CACE02BFF3DC /* OS X */,
+				7D578F00E0D1DA2E95AAC174123682AE /* tvOS */,
+				0F47FB2AD9E067738EF085C392E474D4 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7761FDC6450DEA90D37D151384B3250B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				724C7D9D2700F3C94A4116D317D1FD7C /* ESMigration.podspec */,
+				0985D00E83C06C0B8CEF677CF7A7666B /* LICENSE */,
+				10C691CD2BB3B2E2C5B7B161CCABAC05 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7D578F00E0D1DA2E95AAC174123682AE /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				215EF51E666DBD1701D905B63B89B554 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		A5BA2E0DB9FEADAE46DC291442476877 /* Pods-ESMigrationDemo_macos */ = {
+			isa = PBXGroup;
+			children = (
+				48B0A333FA0EB4AECE563D8F88698E47 /* Pods-ESMigrationDemo_macos.modulemap */,
+				6DEAC530D18708952B1C947DDB830968 /* Pods-ESMigrationDemo_macos-acknowledgements.markdown */,
+				A237AC64785EFC6CD7AEEBBA4B037E0B /* Pods-ESMigrationDemo_macos-acknowledgements.plist */,
+				0DE81B32B546E58FA430F7C63208F13B /* Pods-ESMigrationDemo_macos-dummy.m */,
+				4107C46A466C64A7D267E2DAFE4826D9 /* Pods-ESMigrationDemo_macos-frameworks.sh */,
+				21DE334B8E0957EE38C3DE96C7381B1E /* Pods-ESMigrationDemo_macos-Info.plist */,
+				F26E908E18D02C770D47706D526221DD /* Pods-ESMigrationDemo_macos-umbrella.h */,
+				6677EB19FD9BA4FBBE7950EC67E3514D /* Pods-ESMigrationDemo_macos.debug.xcconfig */,
+				C9D1124527D9D8B5942E5BE7EB017A16 /* Pods-ESMigrationDemo_macos.release.xcconfig */,
+			);
+			name = "Pods-ESMigrationDemo_macos";
+			path = "Target Support Files/Pods-ESMigrationDemo_macos";
+			sourceTree = "<group>";
+		};
+		A6703B1644A6EC793853162FBC2A46BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC3E09A275369B4005181808254775C3 /* ESMigration-iOS10.0.modulemap */,
+				218D09B380381548C6340D580CF9AB05 /* ESMigration-iOS10.0-dummy.m */,
+				0587C22AF2005037C0C7EB86FCA52851 /* ESMigration-iOS10.0-Info.plist */,
+				A00C9BFDCEC2D66A882F1F8A8352FC43 /* ESMigration-iOS10.0-prefix.pch */,
+				7E7685852F3A058A6F9BAC3A1D33DCD7 /* ESMigration-iOS10.0-umbrella.h */,
+				A9FBF36619B96A9656B6EC6866392347 /* ESMigration-iOS10.0.debug.xcconfig */,
+				6B17A2356BC64E0EF870E47978DA140C /* ESMigration-iOS10.0.release.xcconfig */,
+				ECEF7D355B98B6B189FA22361FFC9A43 /* ESMigration-iOS14.3.modulemap */,
+				BB79BA59154AC0128E748532FAE6A0BC /* ESMigration-iOS14.3-dummy.m */,
+				2AA9DA47B1B223E1C7F08E741192F16B /* ESMigration-iOS14.3-Info.plist */,
+				AEB38AF16FACB2E0136125A25BDDE05A /* ESMigration-iOS14.3-prefix.pch */,
+				A803DDEC1B077D22243F8C45D6DC2239 /* ESMigration-iOS14.3-umbrella.h */,
+				B018E97C6A9E53041EFC152AAADB9D5C /* ESMigration-iOS14.3.debug.xcconfig */,
+				841512B2B4DDE99682F0E20E25AE7172 /* ESMigration-iOS14.3.release.xcconfig */,
+				C3A1DEF77C689D125A7935BB0F736CA7 /* ESMigration-macOS10.10.modulemap */,
+				DF35F47636EEC0F471A80C52689B1CE9 /* ESMigration-macOS10.10-dummy.m */,
+				10D114E032B01BDB268EDF83DBC76D4E /* ESMigration-macOS10.10-Info.plist */,
+				FBA20426E54A87FBD667B198AEAF52DE /* ESMigration-macOS10.10-prefix.pch */,
+				AA51D50E9048A8E9C68DEDE23CA25C90 /* ESMigration-macOS10.10-umbrella.h */,
+				8C9D1B7B00C8F4B5B7C152906F6962DB /* ESMigration-macOS10.10.debug.xcconfig */,
+				B4D133BBFE4BBC8EAE5CA095757BFB15 /* ESMigration-macOS10.10.release.xcconfig */,
+				EA95446DE450B41E35BD28558198102A /* ESMigration-tvOS14.3.modulemap */,
+				A2117EBD71DEF3ADB6CC0956F9E1BF6D /* ESMigration-tvOS14.3-dummy.m */,
+				0628ADC5DF79EE3375813B23F244AED5 /* ESMigration-tvOS14.3-Info.plist */,
+				87F54CA877FD03FB9621D7B9C66FAA9C /* ESMigration-tvOS14.3-prefix.pch */,
+				2659FD681E033C3B880EEA174F343ED6 /* ESMigration-tvOS14.3-umbrella.h */,
+				505BC7E7980D153019E96884CE7728FC /* ESMigration-tvOS14.3.debug.xcconfig */,
+				9ADA4D28A9326559AF7B4653C52E35F0 /* ESMigration-tvOS14.3.release.xcconfig */,
+				4335788DFD5FA0CD690CE1574C171832 /* ESMigration-watchOS7.2.modulemap */,
+				8F72D008DB9EA2CDC7724EF91DCCCD80 /* ESMigration-watchOS7.2-dummy.m */,
+				8C8F24790C358F5430E9DB00BA3B331E /* ESMigration-watchOS7.2-Info.plist */,
+				645B64805580F61DF5F87382DE4DAD83 /* ESMigration-watchOS7.2-prefix.pch */,
+				BDF9BEAB81C4C509B457D6E9E1F8D4ED /* ESMigration-watchOS7.2-umbrella.h */,
+				2D717019CE882775EB09F66B9F14B492 /* ESMigration-watchOS7.2.debug.xcconfig */,
+				97C86B1C1210E5D8E9D06DA932DE6590 /* ESMigration-watchOS7.2.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "ESMegrationDemo/Pods/Target Support Files/ESMigration-iOS10.0";
+			sourceTree = "<group>";
+		};
+		B5A03823E1F751A1B583BE5792C16F74 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				569FEB354BA766E9932FAAD6F5A65DAC /* ESMigration */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BE0ACE7D1023A37D2B820DB6DAD0A19C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				012A8173BB79D2346568E009D8223AAB /* ESMigration.framework */,
+				991F9C1D12A2C62AAC5AB48FDACF2B19 /* ESMigration.framework */,
+				34BEF65B79BD8B269E5CC2216A4D5601 /* ESMigration.framework */,
+				D80B3CF335C60D6554A8BE27C3CD5590 /* ESMigration.framework */,
+				0182883E875B6A1043F9464EF285D54B /* ESMigration.framework */,
+				F4A07BDB2FE3541DCE79BBB87B0269FB /* Pods_ESMegrationDemo.framework */,
+				7303E0CEB11C51103AD67907450044DF /* Pods_ESMigrationDemo_macos.framework */,
+				8A521BB7CB43EDE9479CC86D2498FCEB /* Pods_ESMigrationDemo_tvos.framework */,
+				13CBB30035B61997C239402C3892AAB8 /* Pods_ESMigrationDemo_wtchos.framework */,
+				FD43C3F1BAFDEBAA5F1685F4B89A4330 /* Pods_ESMigrationDemo_wtchos_WatchKit_App.framework */,
+				EC5816D81E1F511277129AF60E9EB66D /* Pods_ESMigrationDemo_wtchos_WatchKit_Extension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C00F17CF9C87483F85151F91ACFB9B47 /* Pods-ESMigrationDemo_wtchos WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				ADB6F5F4AA303F087E387D8FE61C0AA1 /* Pods-ESMigrationDemo_wtchos WatchKit App.modulemap */,
+				0D54010677B16490D9700BFE36E8D559 /* Pods-ESMigrationDemo_wtchos WatchKit App-acknowledgements.markdown */,
+				22BB906E6402615CB4541BCD70729004 /* Pods-ESMigrationDemo_wtchos WatchKit App-acknowledgements.plist */,
+				551068811083C691B8C4B67E64AF2A20 /* Pods-ESMigrationDemo_wtchos WatchKit App-dummy.m */,
+				D52F206543105B763D38283C15FF9EC7 /* Pods-ESMigrationDemo_wtchos WatchKit App-frameworks.sh */,
+				B3099068AFA72B9239517CB348E5A279 /* Pods-ESMigrationDemo_wtchos WatchKit App-Info.plist */,
+				880092283388FE3E0C9DCD7685E97551 /* Pods-ESMigrationDemo_wtchos WatchKit App-umbrella.h */,
+				17CEDE628609EF592DBBEC51EF0EA8A4 /* Pods-ESMigrationDemo_wtchos WatchKit App.debug.xcconfig */,
+				10B48380BBB3D5C826B2D75903F18B73 /* Pods-ESMigrationDemo_wtchos WatchKit App.release.xcconfig */,
+			);
+			name = "Pods-ESMigrationDemo_wtchos WatchKit App";
+			path = "Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit App";
+			sourceTree = "<group>";
+		};
+		C78A157E017DAF52F02BDB84F153E74D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B7E1B4BA7C929307A0998E4DB5C1813B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B5A03823E1F751A1B583BE5792C16F74 /* Development Pods */,
+				5A4D21523E5EB6778702CACF7C410915 /* Frameworks */,
+				BE0ACE7D1023A37D2B820DB6DAD0A19C /* Products */,
+				42736AF6DA07F3A1B6C8EE7986DCF766 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D7009CD44AB2671381C5089A78824F34 /* Pods-ESMigrationDemo_wtchos */ = {
+			isa = PBXGroup;
+			children = (
+				763E6B674530E8AEA0453A7B51E9B892 /* Pods-ESMigrationDemo_wtchos.modulemap */,
+				DB655E0887CDA1A3979CE1750E661B83 /* Pods-ESMigrationDemo_wtchos-acknowledgements.markdown */,
+				45C5E1F6EFF8DFEC019B85C2A495C385 /* Pods-ESMigrationDemo_wtchos-acknowledgements.plist */,
+				A16FA811CF38BB70390919ED55EB9573 /* Pods-ESMigrationDemo_wtchos-dummy.m */,
+				3B26ACEDB25CC2DEEBF5B2388AD1870A /* Pods-ESMigrationDemo_wtchos-frameworks.sh */,
+				5F98DB9999A135E75299C7AB0385C660 /* Pods-ESMigrationDemo_wtchos-Info.plist */,
+				B112BB133245F74A1902AB37457999D1 /* Pods-ESMigrationDemo_wtchos-umbrella.h */,
+				21312A00272F321EC155A00D0F13932A /* Pods-ESMigrationDemo_wtchos.debug.xcconfig */,
+				49B68623D0AEA4A2C8513691A0BF2D2A /* Pods-ESMigrationDemo_wtchos.release.xcconfig */,
+			);
+			name = "Pods-ESMigrationDemo_wtchos";
+			path = "Target Support Files/Pods-ESMigrationDemo_wtchos";
+			sourceTree = "<group>";
+		};
+		EA2AC34D7EEA463B86B7CACE02BFF3DC /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				6525C631577BA65AD49507D5BB6CCA8F /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		EA6976EB6D8CFB186B898B8248086A9F /* Pods-ESMigrationDemo_tvos */ = {
+			isa = PBXGroup;
+			children = (
+				C08D388B2A87D599D9C9B88933D0FBC5 /* Pods-ESMigrationDemo_tvos.modulemap */,
+				6927C8191C7B7F03FD0E468B0AC05895 /* Pods-ESMigrationDemo_tvos-acknowledgements.markdown */,
+				FD18F9FA6815A021EEC4BFA588322FDA /* Pods-ESMigrationDemo_tvos-acknowledgements.plist */,
+				DDBC491B9DA65C7540C5CDCABCF0C39F /* Pods-ESMigrationDemo_tvos-dummy.m */,
+				686B659B26F51C8A4D12E10AEBD17D5C /* Pods-ESMigrationDemo_tvos-frameworks.sh */,
+				3EC77237A2727F1452E1E2BA5AE41D1A /* Pods-ESMigrationDemo_tvos-Info.plist */,
+				4413262F99E57B9D57A8FE1398B221C3 /* Pods-ESMigrationDemo_tvos-umbrella.h */,
+				68D99E7DA13919FD748A9A79C9ED3B3A /* Pods-ESMigrationDemo_tvos.debug.xcconfig */,
+				DCF6196D944AB2B5014B080A6578A27D /* Pods-ESMigrationDemo_tvos.release.xcconfig */,
+			);
+			name = "Pods-ESMigrationDemo_tvos";
+			path = "Target Support Files/Pods-ESMigrationDemo_tvos";
+			sourceTree = "<group>";
+		};
+		F4CEC9BFE8CE53C3FBE786943557EF3F /* Pods-ESMegrationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E1789F813FBC7CFCF70750F7C4ED049D /* Pods-ESMegrationDemo.modulemap */,
+				7B7CABF1406ABF0F85C6C322E337B5D8 /* Pods-ESMegrationDemo-acknowledgements.markdown */,
+				E5F17D50E9E4DD53CC2022492AB097EA /* Pods-ESMegrationDemo-acknowledgements.plist */,
+				16CD5504E07E2E4EC409F10E1A24EF56 /* Pods-ESMegrationDemo-dummy.m */,
+				AD01E91EF80C0E0324BA3F269A5A48DA /* Pods-ESMegrationDemo-frameworks.sh */,
+				F5AD430598A30CE2F2D195509E232F3E /* Pods-ESMegrationDemo-Info.plist */,
+				67783B1FC5C7911D96BB58F22489C512 /* Pods-ESMegrationDemo-umbrella.h */,
+				A90DCABE53176DF0AB2EED56F512E5D3 /* Pods-ESMegrationDemo.debug.xcconfig */,
+				0ED6B6040E9A76D5EF91FC3FF5E562D7 /* Pods-ESMegrationDemo.release.xcconfig */,
+			);
+			name = "Pods-ESMegrationDemo";
+			path = "Target Support Files/Pods-ESMegrationDemo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0935DC15954D7CCD2D62C85149A6FBCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63B8A6AD6127CDF6E1F6899FCB46CD2 /* ESMigration-macOS10.10-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18AC40AA2C71916A5333BF9AC01FB875 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				156C057C5BA9091A7E13DEE305D0DEA7 /* ESMigration-iOS10.0-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C84221CC803052CCD4057DDC676D289 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31848A4F66B411A5A1CC4957992F26D7 /* ESMigration-tvOS14.3-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69896A0567159FC09AFC726F5F92A01C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D46A8FA76555A684CB8D32CC9DC1DD1 /* Pods-ESMigrationDemo_wtchos WatchKit Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77CBD7964341DA210764C238AFFA7581 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BFBA0F820364E788F398870A704C1C5 /* ESMigration-iOS14.3-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE9B03BE9CC7E40FEC188AF1A934E0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2478A88CFC9B1D6AB1F0E84990068B0 /* Pods-ESMigrationDemo_tvos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9553CCB21770E0829B628661B95F0731 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204050DB3974EA55872F19A1D4BE1890 /* Pods-ESMegrationDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB4A12D411CF24E565069EB3C23EC3B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A40889CB593C976E6DD0FA274EB4A91 /* Pods-ESMigrationDemo_wtchos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30077143581D87B6CF882532EEBFD79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95323811D7889E92A27BDDE809E718F /* Pods-ESMigrationDemo_wtchos WatchKit App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A624913DD9B325764C0DB38C56C846 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B98BE986B39AA38A009B661881BD9D /* ESMigration-watchOS7.2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD5687ECB4013FFCD9035B64E55869E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73DBC6EBC700B2A2E839C15674D93E8E /* Pods-ESMigrationDemo_macos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13D75F1F0A4B91612D5559AF80B049F0 /* ESMigration-watchOS7.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0FCEC52D993C8F9BE3F6AB9BDE161AC /* Build configuration list for PBXNativeTarget "ESMigration-watchOS7.2" */;
+			buildPhases = (
+				C6A624913DD9B325764C0DB38C56C846 /* Headers */,
+				BBEC424E3D4F3C4CADC1ECCA6BABA789 /* Sources */,
+				F04D3FC5711325DC48ADF16166076122 /* Frameworks */,
+				07905CC887178A9747280AD5C6C40BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ESMigration-watchOS7.2";
+			productName = "ESMigration-watchOS7.2";
+			productReference = 0182883E875B6A1043F9464EF285D54B /* ESMigration.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		13FD783E9340EBFEEC54B034CD9E7BB0 /* ESMigration-tvOS14.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C8D892815C1AA77CE7D66A282157AAA /* Build configuration list for PBXNativeTarget "ESMigration-tvOS14.3" */;
+			buildPhases = (
+				4C84221CC803052CCD4057DDC676D289 /* Headers */,
+				30D8BE220E48A6A66E0C3DDAD8FDAFC4 /* Sources */,
+				9290CB8BF26B27045F4A8F7A06AF05FA /* Frameworks */,
+				CD19BD4878BE12528F62176D2EA206DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ESMigration-tvOS14.3";
+			productName = "ESMigration-tvOS14.3";
+			productReference = D80B3CF335C60D6554A8BE27C3CD5590 /* ESMigration.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		25AA6BFE792BB6D6EE6BD0EF12BABC46 /* Pods-ESMigrationDemo_wtchos WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F90F4FB21BA3E304C181A23646CDCBFC /* Build configuration list for PBXNativeTarget "Pods-ESMigrationDemo_wtchos WatchKit Extension" */;
+			buildPhases = (
+				69896A0567159FC09AFC726F5F92A01C /* Headers */,
+				E3605D7E2A3B7A6DDB46EBB4B8A2A90A /* Sources */,
+				7EAB8DF5EF1BE2046EBDAD501EEFD1D1 /* Frameworks */,
+				46628A91F12F31D66F838DB0871B315F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AD0BB0CD01B849822054FAA18BAC6FB /* PBXTargetDependency */,
+			);
+			name = "Pods-ESMigrationDemo_wtchos WatchKit Extension";
+			productName = "Pods-ESMigrationDemo_wtchos WatchKit Extension";
+			productReference = EC5816D81E1F511277129AF60E9EB66D /* Pods_ESMigrationDemo_wtchos_WatchKit_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		303BB36588CE9E592C5A3F3CE6C9B078 /* ESMigration-iOS10.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F977701E76D86A2210F2DA0758A840 /* Build configuration list for PBXNativeTarget "ESMigration-iOS10.0" */;
+			buildPhases = (
+				18AC40AA2C71916A5333BF9AC01FB875 /* Headers */,
+				8EE9E282530D9AE1305520B40A40DBDA /* Sources */,
+				4D97FB048A9C0B43C3D4AF337207AFEE /* Frameworks */,
+				34FB7C03269014DC76956D163DD79C26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ESMigration-iOS10.0";
+			productName = "ESMigration-iOS10.0";
+			productReference = 012A8173BB79D2346568E009D8223AAB /* ESMigration.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3DCEF07248F1AEBB6610852283C6B933 /* Pods-ESMigrationDemo_wtchos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15FE36F43C3D6F03D9D5C853A89B59C /* Build configuration list for PBXNativeTarget "Pods-ESMigrationDemo_wtchos" */;
+			buildPhases = (
+				BB4A12D411CF24E565069EB3C23EC3B3 /* Headers */,
+				FDA69CC1AB004CE86222872B6DE2E57E /* Sources */,
+				E156B0AE63ED31F627A83168225AC7C9 /* Frameworks */,
+				58FC2352DF69AD4575B1311C50A10168 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4889E9F5D7BBF310CD7436A98FAEDC97 /* PBXTargetDependency */,
+			);
+			name = "Pods-ESMigrationDemo_wtchos";
+			productName = "Pods-ESMigrationDemo_wtchos";
+			productReference = 13CBB30035B61997C239402C3892AAB8 /* Pods_ESMigrationDemo_wtchos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		494FCBD8E5BE9284BDFA177153B79FE8 /* Pods-ESMegrationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3179C9B83D1C042DBC3B40C2FA10CEF5 /* Build configuration list for PBXNativeTarget "Pods-ESMegrationDemo" */;
+			buildPhases = (
+				9553CCB21770E0829B628661B95F0731 /* Headers */,
+				D2EF5E1BBA5FD39F5F6E439D6055D905 /* Sources */,
+				7C71F58EF8C48A914F51317825E23556 /* Frameworks */,
+				3D573775B5BA9B812367A794710959A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EA099EDA516EE9CC90FF5D8F1DE2727 /* PBXTargetDependency */,
+			);
+			name = "Pods-ESMegrationDemo";
+			productName = "Pods-ESMegrationDemo";
+			productReference = F4A07BDB2FE3541DCE79BBB87B0269FB /* Pods_ESMegrationDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92E6AB3E4F604CF20087751FDBF7DB08 /* Pods-ESMigrationDemo_wtchos WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F51C03367FE14A636EE3BB34BDE176FD /* Build configuration list for PBXNativeTarget "Pods-ESMigrationDemo_wtchos WatchKit App" */;
+			buildPhases = (
+				C30077143581D87B6CF882532EEBFD79 /* Headers */,
+				B83F658B40736F58824E6763CA958A8D /* Sources */,
+				C32B2BA0F70F9CC2A74122D33E38352E /* Frameworks */,
+				ED2355487A3BB662750CE6ACCA75CBF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E98B8EDD02D0A55001FC71C8565DBC3B /* PBXTargetDependency */,
+			);
+			name = "Pods-ESMigrationDemo_wtchos WatchKit App";
+			productName = "Pods-ESMigrationDemo_wtchos WatchKit App";
+			productReference = FD43C3F1BAFDEBAA5F1685F4B89A4330 /* Pods_ESMigrationDemo_wtchos_WatchKit_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3760C3017567A3FB361D1E6C5A5F2A3 /* ESMigration-macOS10.10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18D29E0D45A1188BFAB7A612D050D46 /* Build configuration list for PBXNativeTarget "ESMigration-macOS10.10" */;
+			buildPhases = (
+				0935DC15954D7CCD2D62C85149A6FBCD /* Headers */,
+				7F5DF541E5BED89513C8F43BCC0D0975 /* Sources */,
+				F23844E3EFC41365F31961962E745E26 /* Frameworks */,
+				E1C1E7554607FCEAAEBF0BCE568D79BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ESMigration-macOS10.10";
+			productName = "ESMigration-macOS10.10";
+			productReference = 34BEF65B79BD8B269E5CC2216A4D5601 /* ESMigration.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7571D9A22E27103F2946A1DA9E3CD16 /* ESMigration-iOS14.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DCF5768E5E009BEED1D97A1A0BD2A8C /* Build configuration list for PBXNativeTarget "ESMigration-iOS14.3" */;
+			buildPhases = (
+				77CBD7964341DA210764C238AFFA7581 /* Headers */,
+				D0D666212259A9DB7C62DDD5477AB249 /* Sources */,
+				3E9E2BF334F15ACD8F2057662C09414C /* Frameworks */,
+				73790C9AD0F31F0742CD7B40787AB9A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ESMigration-iOS14.3";
+			productName = "ESMigration-iOS14.3";
+			productReference = 991F9C1D12A2C62AAC5AB48FDACF2B19 /* ESMigration.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C34FD4E6B401D7D652A381DABFCEA8D8 /* Pods-ESMigrationDemo_tvos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA5F4A99D190622FCE5F47E4D855C0D /* Build configuration list for PBXNativeTarget "Pods-ESMigrationDemo_tvos" */;
+			buildPhases = (
+				8EE9B03BE9CC7E40FEC188AF1A934E0B /* Headers */,
+				E45FF67DE7E505E3AF9F5C63382F7DA5 /* Sources */,
+				21A22194AF461AFF9E7DD66A4D60D8B7 /* Frameworks */,
+				DDAD0821667E5D98BCA5A12F32206915 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F87F0B2E1E985752EBFEC8B1428B1EB /* PBXTargetDependency */,
+			);
+			name = "Pods-ESMigrationDemo_tvos";
+			productName = "Pods-ESMigrationDemo_tvos";
+			productReference = 8A521BB7CB43EDE9479CC86D2498FCEB /* Pods_ESMigrationDemo_tvos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA13D9C58B1EA3006DD8ECFF27A351A6 /* Pods-ESMigrationDemo_macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF525D4B043EB2BFD20B49A0A4763E61 /* Build configuration list for PBXNativeTarget "Pods-ESMigrationDemo_macos" */;
+			buildPhases = (
+				FD5687ECB4013FFCD9035B64E55869E6 /* Headers */,
+				84EF30C2815EF2DE3E5CAF0BA9FF74D0 /* Sources */,
+				EB696BD6ED0E1B41CEF2283412828A3C /* Frameworks */,
+				FD3224B8C7F0FE209BC6ED1E236A051D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E059562F3C8519D3EA46850F7D140E4A /* PBXTargetDependency */,
+			);
+			name = "Pods-ESMigrationDemo_macos";
+			productName = "Pods-ESMigrationDemo_macos";
+			productReference = 7303E0CEB11C51103AD67907450044DF /* Pods_ESMigrationDemo_macos.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BE0ACE7D1023A37D2B820DB6DAD0A19C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				303BB36588CE9E592C5A3F3CE6C9B078 /* ESMigration-iOS10.0 */,
+				B7571D9A22E27103F2946A1DA9E3CD16 /* ESMigration-iOS14.3 */,
+				B3760C3017567A3FB361D1E6C5A5F2A3 /* ESMigration-macOS10.10 */,
+				13FD783E9340EBFEEC54B034CD9E7BB0 /* ESMigration-tvOS14.3 */,
+				13D75F1F0A4B91612D5559AF80B049F0 /* ESMigration-watchOS7.2 */,
+				494FCBD8E5BE9284BDFA177153B79FE8 /* Pods-ESMegrationDemo */,
+				CA13D9C58B1EA3006DD8ECFF27A351A6 /* Pods-ESMigrationDemo_macos */,
+				C34FD4E6B401D7D652A381DABFCEA8D8 /* Pods-ESMigrationDemo_tvos */,
+				3DCEF07248F1AEBB6610852283C6B933 /* Pods-ESMigrationDemo_wtchos */,
+				92E6AB3E4F604CF20087751FDBF7DB08 /* Pods-ESMigrationDemo_wtchos WatchKit App */,
+				25AA6BFE792BB6D6EE6BD0EF12BABC46 /* Pods-ESMigrationDemo_wtchos WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07905CC887178A9747280AD5C6C40BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34FB7C03269014DC76956D163DD79C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D573775B5BA9B812367A794710959A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46628A91F12F31D66F838DB0871B315F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58FC2352DF69AD4575B1311C50A10168 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73790C9AD0F31F0742CD7B40787AB9A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD19BD4878BE12528F62176D2EA206DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAD0821667E5D98BCA5A12F32206915 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C1E7554607FCEAAEBF0BCE568D79BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED2355487A3BB662750CE6ACCA75CBF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3224B8C7F0FE209BC6ED1E236A051D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30D8BE220E48A6A66E0C3DDAD8FDAFC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DA6FD6001B2D38B10FFB3758FC3B8B /* ESMigration-tvOS14.3-dummy.m in Sources */,
+				1604459D2E67E192BB318B47ABDCD414 /* Migration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F5DF541E5BED89513C8F43BCC0D0975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1612F71D2583FADEFCFBFDF67B0B8C53 /* ESMigration-macOS10.10-dummy.m in Sources */,
+				99B9AD31C7634751AB1675DB4EE9E3B8 /* Migration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EF30C2815EF2DE3E5CAF0BA9FF74D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005570B4B52FA88B89360B9DF4F1920F /* Pods-ESMigrationDemo_macos-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE9E282530D9AE1305520B40A40DBDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39527B18EC22C227DE9255459F79C965 /* ESMigration-iOS10.0-dummy.m in Sources */,
+				0B6844747E8EDB548FCDAACD1C13F473 /* Migration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B83F658B40736F58824E6763CA958A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54D46D0BC7ECEE430FEA14EB4CE986B /* Pods-ESMigrationDemo_wtchos WatchKit App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEC424E3D4F3C4CADC1ECCA6BABA789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE8DC183EDBCAFA87A85D35F99561BD /* ESMigration-watchOS7.2-dummy.m in Sources */,
+				FDC2FA7057483229F72A78255A6F6489 /* Migration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D666212259A9DB7C62DDD5477AB249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104C8032E1883003C98C0D5F7BA4CE27 /* ESMigration-iOS14.3-dummy.m in Sources */,
+				DE689A9011BC5D38230949CEB1094C56 /* Migration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2EF5E1BBA5FD39F5F6E439D6055D905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA5003BAA7EE0D7005C22346FFC576F8 /* Pods-ESMegrationDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3605D7E2A3B7A6DDB46EBB4B8A2A90A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95DD2A6700F144629388949F155FB38 /* Pods-ESMigrationDemo_wtchos WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E45FF67DE7E505E3AF9F5C63382F7DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403BF38D9A71EDA7848778BA671417CA /* Pods-ESMigrationDemo_tvos-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA69CC1AB004CE86222872B6DE2E57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E31C337AB71C72CA1D4678C6C8F232 /* Pods-ESMigrationDemo_wtchos-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EA099EDA516EE9CC90FF5D8F1DE2727 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ESMigration-iOS10.0";
+			target = 303BB36588CE9E592C5A3F3CE6C9B078 /* ESMigration-iOS10.0 */;
+			targetProxy = F5976F8F951754498F74FDAD122496E7 /* PBXContainerItemProxy */;
+		};
+		3F87F0B2E1E985752EBFEC8B1428B1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ESMigration-tvOS14.3";
+			target = 13FD783E9340EBFEEC54B034CD9E7BB0 /* ESMigration-tvOS14.3 */;
+			targetProxy = 4309A415ADEB64256456B136C221B511 /* PBXContainerItemProxy */;
+		};
+		4889E9F5D7BBF310CD7436A98FAEDC97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ESMigration-iOS14.3";
+			target = B7571D9A22E27103F2946A1DA9E3CD16 /* ESMigration-iOS14.3 */;
+			targetProxy = 0D47D55628E99394F36304585C76CCC1 /* PBXContainerItemProxy */;
+		};
+		4AD0BB0CD01B849822054FAA18BAC6FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ESMigration-watchOS7.2";
+			target = 13D75F1F0A4B91612D5559AF80B049F0 /* ESMigration-watchOS7.2 */;
+			targetProxy = B3E35874A523C4104077A4072AC871B8 /* PBXContainerItemProxy */;
+		};
+		E059562F3C8519D3EA46850F7D140E4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ESMigration-macOS10.10";
+			target = B3760C3017567A3FB361D1E6C5A5F2A3 /* ESMigration-macOS10.10 */;
+			targetProxy = 2900B54A1AE3B3A79ADB8ED1CF8D01DB /* PBXContainerItemProxy */;
+		};
+		E98B8EDD02D0A55001FC71C8565DBC3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ESMigration-watchOS7.2";
+			target = 13D75F1F0A4B91612D5559AF80B049F0 /* ESMigration-watchOS7.2 */;
+			targetProxy = ABB660640BF5E6033B947D2836FB25E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		081412BCDF3B4F27CD3C2293255BD6A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6677EB19FD9BA4FBBE7950EC67E3514D /* Pods-ESMigrationDemo_macos.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ESMigrationDemo_macos/Pods-ESMigrationDemo_macos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-ESMigrationDemo_macos/Pods-ESMigrationDemo_macos.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		243DFBAA3A762735B786FE19217B3AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF6196D944AB2B5014B080A6578A27D /* Pods-ESMigrationDemo_tvos.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ESMigrationDemo_tvos/Pods-ESMigrationDemo_tvos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ESMigrationDemo_tvos/Pods-ESMigrationDemo_tvos.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3D092872E23CCC9208FF49807BB83E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C86B1C1210E5D8E9D06DA932DE6590 /* ESMigration-watchOS7.2.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESMigration-watchOS7.2/ESMigration-watchOS7.2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESMigration-watchOS7.2/ESMigration-watchOS7.2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ESMigration-watchOS7.2/ESMigration-watchOS7.2.modulemap";
+				PRODUCT_MODULE_NAME = ESMigration;
+				PRODUCT_NAME = ESMigration;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		4AE9DE98B2E47AF48422F17B9FCE9ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E011AAEE068F2A4F9A0102A9664E58 /* Pods-ESMigrationDemo_wtchos WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit Extension/Pods-ESMigrationDemo_wtchos WatchKit Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit Extension/Pods-ESMigrationDemo_wtchos WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		50240F52D9940F2F416A2DB8E435366C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9D1124527D9D8B5942E5BE7EB017A16 /* Pods-ESMigrationDemo_macos.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ESMigrationDemo_macos/Pods-ESMigrationDemo_macos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-ESMigrationDemo_macos/Pods-ESMigrationDemo_macos.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52AD45412D52C785F57E9AF8D83DDD97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841512B2B4DDE99682F0E20E25AE7172 /* ESMigration-iOS14.3.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESMigration-iOS14.3/ESMigration-iOS14.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESMigration-iOS14.3/ESMigration-iOS14.3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ESMigration-iOS14.3/ESMigration-iOS14.3.modulemap";
+				PRODUCT_MODULE_NAME = ESMigration;
+				PRODUCT_NAME = ESMigration;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5690115468F5E5EC2207CA5D951D7F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B018E97C6A9E53041EFC152AAADB9D5C /* ESMigration-iOS14.3.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESMigration-iOS14.3/ESMigration-iOS14.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESMigration-iOS14.3/ESMigration-iOS14.3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ESMigration-iOS14.3/ESMigration-iOS14.3.modulemap";
+				PRODUCT_MODULE_NAME = ESMigration;
+				PRODUCT_NAME = ESMigration;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62E3A7626FAEC29B7FC3AB7F4D23F35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CEDE628609EF592DBBEC51EF0EA8A4 /* Pods-ESMigrationDemo_wtchos WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit App/Pods-ESMigrationDemo_wtchos WatchKit App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit App/Pods-ESMigrationDemo_wtchos WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		7C374EA1B0536D2B01535948C20DC728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D99E7DA13919FD748A9A79C9ED3B3A /* Pods-ESMigrationDemo_tvos.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ESMigrationDemo_tvos/Pods-ESMigrationDemo_tvos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ESMigrationDemo_tvos/Pods-ESMigrationDemo_tvos.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C6B49710C2BABE8E5C63CF2B278B7E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D717019CE882775EB09F66B9F14B492 /* ESMigration-watchOS7.2.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESMigration-watchOS7.2/ESMigration-watchOS7.2-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESMigration-watchOS7.2/ESMigration-watchOS7.2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ESMigration-watchOS7.2/ESMigration-watchOS7.2.modulemap";
+				PRODUCT_MODULE_NAME = ESMigration;
+				PRODUCT_NAME = ESMigration;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		8780B5B96833ACFB0287351BF77591DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B48380BBB3D5C826B2D75903F18B73 /* Pods-ESMigrationDemo_wtchos WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit App/Pods-ESMigrationDemo_wtchos WatchKit App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit App/Pods-ESMigrationDemo_wtchos WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		8964F005B51B83775AC2907199F578D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A90DCABE53176DF0AB2EED56F512E5D3 /* Pods-ESMegrationDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ESMegrationDemo/Pods-ESMegrationDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ESMegrationDemo/Pods-ESMegrationDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		928EDEE61C9B2B52EF8B6444363D1B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C9D1B7B00C8F4B5B7C152906F6962DB /* ESMigration-macOS10.10.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESMigration-macOS10.10/ESMigration-macOS10.10-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESMigration-macOS10.10/ESMigration-macOS10.10-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/ESMigration-macOS10.10/ESMigration-macOS10.10.modulemap";
+				PRODUCT_MODULE_NAME = ESMigration;
+				PRODUCT_NAME = ESMigration;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E4A7C6C9DAC96737434F68717463563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		A0CF8FFAF1AACE171B8AD4A5FC0DEDF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B17A2356BC64E0EF870E47978DA140C /* ESMigration-iOS10.0.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESMigration-iOS10.0/ESMigration-iOS10.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESMigration-iOS10.0/ESMigration-iOS10.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ESMigration-iOS10.0/ESMigration-iOS10.0.modulemap";
+				PRODUCT_MODULE_NAME = ESMigration;
+				PRODUCT_NAME = ESMigration;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A812C14D65BEB1583F89750AE67928BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21312A00272F321EC155A00D0F13932A /* Pods-ESMigrationDemo_wtchos.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ESMigrationDemo_wtchos/Pods-ESMigrationDemo_wtchos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ESMigrationDemo_wtchos/Pods-ESMigrationDemo_wtchos.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ACCC54D6148B018962731A5DC3375651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B68623D0AEA4A2C8513691A0BF2D2A /* Pods-ESMigrationDemo_wtchos.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ESMigrationDemo_wtchos/Pods-ESMigrationDemo_wtchos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ESMigrationDemo_wtchos/Pods-ESMigrationDemo_wtchos.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF813ED9F2050CEE5B03FE087345BC23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D133BBFE4BBC8EAE5CA095757BFB15 /* ESMigration-macOS10.10.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESMigration-macOS10.10/ESMigration-macOS10.10-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESMigration-macOS10.10/ESMigration-macOS10.10-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/ESMigration-macOS10.10/ESMigration-macOS10.10.modulemap";
+				PRODUCT_MODULE_NAME = ESMigration;
+				PRODUCT_NAME = ESMigration;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C15ED75713D9419B2B831AC64F7D8F6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9FBF36619B96A9656B6EC6866392347 /* ESMigration-iOS10.0.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESMigration-iOS10.0/ESMigration-iOS10.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESMigration-iOS10.0/ESMigration-iOS10.0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ESMigration-iOS10.0/ESMigration-iOS10.0.modulemap";
+				PRODUCT_MODULE_NAME = ESMigration;
+				PRODUCT_NAME = ESMigration;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA677D51C6C29A27A2B22D2B06441007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADA4D28A9326559AF7B4653C52E35F0 /* ESMigration-tvOS14.3.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESMigration-tvOS14.3/ESMigration-tvOS14.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESMigration-tvOS14.3/ESMigration-tvOS14.3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ESMigration-tvOS14.3/ESMigration-tvOS14.3.modulemap";
+				PRODUCT_MODULE_NAME = ESMigration;
+				PRODUCT_NAME = ESMigration;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2FF855DA1B68F9825DADE0009E98C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED6B6040E9A76D5EF91FC3FF5E562D7 /* Pods-ESMegrationDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ESMegrationDemo/Pods-ESMegrationDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ESMegrationDemo/Pods-ESMegrationDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDE39E2C66782DB9662C028E6A19A4BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33FE99967AF49DE05FD41C9832B7FFF /* Pods-ESMigrationDemo_wtchos WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit Extension/Pods-ESMigrationDemo_wtchos WatchKit Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit Extension/Pods-ESMigrationDemo_wtchos WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		EEE67A54B9A952FBAEF77ECAAF26D57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		F256572A319BE64AD6F590590BBBF95D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 505BC7E7980D153019E96884CE7728FC /* ESMigration-tvOS14.3.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESMigration-tvOS14.3/ESMigration-tvOS14.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESMigration-tvOS14.3/ESMigration-tvOS14.3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ESMigration-tvOS14.3/ESMigration-tvOS14.3.modulemap";
+				PRODUCT_MODULE_NAME = ESMigration;
+				PRODUCT_NAME = ESMigration;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C8D892815C1AA77CE7D66A282157AAA /* Build configuration list for PBXNativeTarget "ESMigration-tvOS14.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F256572A319BE64AD6F590590BBBF95D /* Debug */,
+				CA677D51C6C29A27A2B22D2B06441007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DCF5768E5E009BEED1D97A1A0BD2A8C /* Build configuration list for PBXNativeTarget "ESMigration-iOS14.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5690115468F5E5EC2207CA5D951D7F56 /* Debug */,
+				52AD45412D52C785F57E9AF8D83DDD97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA5F4A99D190622FCE5F47E4D855C0D /* Build configuration list for PBXNativeTarget "Pods-ESMigrationDemo_tvos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C374EA1B0536D2B01535948C20DC728 /* Debug */,
+				243DFBAA3A762735B786FE19217B3AEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3179C9B83D1C042DBC3B40C2FA10CEF5 /* Build configuration list for PBXNativeTarget "Pods-ESMegrationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8964F005B51B83775AC2907199F578D7 /* Debug */,
+				D2FF855DA1B68F9825DADE0009E98C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE67A54B9A952FBAEF77ECAAF26D57F /* Debug */,
+				9E4A7C6C9DAC96737434F68717463563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0FCEC52D993C8F9BE3F6AB9BDE161AC /* Build configuration list for PBXNativeTarget "ESMigration-watchOS7.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6B49710C2BABE8E5C63CF2B278B7E7 /* Debug */,
+				3D092872E23CCC9208FF49807BB83E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15FE36F43C3D6F03D9D5C853A89B59C /* Build configuration list for PBXNativeTarget "Pods-ESMigrationDemo_wtchos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A812C14D65BEB1583F89750AE67928BA /* Debug */,
+				ACCC54D6148B018962731A5DC3375651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18D29E0D45A1188BFAB7A612D050D46 /* Build configuration list for PBXNativeTarget "ESMigration-macOS10.10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928EDEE61C9B2B52EF8B6444363D1B9F /* Debug */,
+				BF813ED9F2050CEE5B03FE087345BC23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF525D4B043EB2BFD20B49A0A4763E61 /* Build configuration list for PBXNativeTarget "Pods-ESMigrationDemo_macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				081412BCDF3B4F27CD3C2293255BD6A4 /* Debug */,
+				50240F52D9940F2F416A2DB8E435366C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F977701E76D86A2210F2DA0758A840 /* Build configuration list for PBXNativeTarget "ESMigration-iOS10.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15ED75713D9419B2B831AC64F7D8F6D /* Debug */,
+				A0CF8FFAF1AACE171B8AD4A5FC0DEDF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F51C03367FE14A636EE3BB34BDE176FD /* Build configuration list for PBXNativeTarget "Pods-ESMigrationDemo_wtchos WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62E3A7626FAEC29B7FC3AB7F4D23F35F /* Debug */,
+				8780B5B96833ACFB0287351BF77591DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F90F4FB21BA3E304C181A23646CDCBFC /* Build configuration list for PBXNativeTarget "Pods-ESMigrationDemo_wtchos WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDE39E2C66782DB9662C028E6A19A4BA /* Debug */,
+				4AE9DE98B2E47AF48422F17B9FCE9ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

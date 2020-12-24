@@ -3,28 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BC995DD39F7424AAFCCD5A8 /* Pods_ESMigrationDemo_macos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731C6ACA2A6BB71709136E75 /* Pods_ESMigrationDemo_macos.framework */; };
 		1AFA620025944654006817E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA61FF25944654006817E4 /* AppDelegate.swift */; };
 		1AFA620225944654006817E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA620125944654006817E4 /* SceneDelegate.swift */; };
 		1AFA620425944654006817E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA620325944654006817E4 /* ViewController.swift */; };
 		1AFA620725944654006817E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA620525944654006817E4 /* Main.storyboard */; };
 		1AFA620925944656006817E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA620825944656006817E4 /* Assets.xcassets */; };
 		1AFA620C25944656006817E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA620A25944656006817E4 /* LaunchScreen.storyboard */; };
-		1AFA6217259487A5006817E4 /* ESMigration in Frameworks */ = {isa = PBXBuildFile; productRef = 1AFA6216259487A5006817E4 /* ESMigration */; };
 		1AFA622625948C65006817E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA622525948C65006817E4 /* AppDelegate.swift */; };
 		1AFA622825948C65006817E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA622725948C65006817E4 /* ViewController.swift */; };
 		1AFA622A25948C67006817E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA622925948C67006817E4 /* Assets.xcassets */; };
 		1AFA622D25948C67006817E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA622B25948C67006817E4 /* Main.storyboard */; };
-		1AFA623725948C92006817E4 /* ESMigration in Frameworks */ = {isa = PBXBuildFile; productRef = 1AFA623625948C92006817E4 /* ESMigration */; };
 		1AFA624B25948D0B006817E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA624A25948D0B006817E4 /* AppDelegate.swift */; };
 		1AFA624D25948D0B006817E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA624C25948D0B006817E4 /* ViewController.swift */; };
 		1AFA625025948D0B006817E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA624E25948D0B006817E4 /* Main.storyboard */; };
 		1AFA625225948D0D006817E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA625125948D0D006817E4 /* Assets.xcassets */; };
 		1AFA625525948D0D006817E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA625325948D0D006817E4 /* LaunchScreen.storyboard */; };
-		1AFA625E25948D18006817E4 /* ESMigration in Frameworks */ = {isa = PBXBuildFile; productRef = 1AFA625D25948D18006817E4 /* ESMigration */; };
 		1AFA626E25948DB8006817E4 /* ESMigrationDemo_wtchos WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1AFA626D25948DB8006817E4 /* ESMigrationDemo_wtchos WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1AFA627425948DB9006817E4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA627225948DB8006817E4 /* Interface.storyboard */; };
 		1AFA627625948DB9006817E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA627525948DB9006817E4 /* Assets.xcassets */; };
@@ -34,7 +32,11 @@
 		1AFA628625948DB9006817E4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA628525948DB9006817E4 /* NotificationController.swift */; };
 		1AFA628825948DB9006817E4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA628725948DB9006817E4 /* ComplicationController.swift */; };
 		1AFA628A25948DBA006817E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFA628925948DBA006817E4 /* Assets.xcassets */; };
-		1AFA629F25948DC9006817E4 /* ESMigration in Frameworks */ = {isa = PBXBuildFile; productRef = 1AFA629E25948DC9006817E4 /* ESMigration */; };
+		2F200880D1EEC69EE0B84D27 /* Pods_ESMigrationDemo_wtchos_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C047EBAC2A047ECCFF043D /* Pods_ESMigrationDemo_wtchos_WatchKit_Extension.framework */; };
+		37ED6EDC20A481BF81B7D542 /* Pods_ESMigrationDemo_wtchos_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BBC8F703C5917AA047D82D /* Pods_ESMigrationDemo_wtchos_WatchKit_App.framework */; };
+		7B54880C1F8220156583EB42 /* Pods_ESMigrationDemo_tvos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0E63445FD2FC4B7EC06F25 /* Pods_ESMigrationDemo_tvos.framework */; };
+		85978CE3C65C8A16CAB2E78A /* Pods_ESMigrationDemo_wtchos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6132AA29081FCCD1C72518E8 /* Pods_ESMigrationDemo_wtchos.framework */; };
+		B4FAA690830DF37F6D9F13D0 /* Pods_ESMegrationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3106D4A03931A7444EAB8057 /* Pods_ESMegrationDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		14B3240A3349810C135E84A1 /* Pods-ESMegrationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESMegrationDemo.debug.xcconfig"; path = "Target Support Files/Pods-ESMegrationDemo/Pods-ESMegrationDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		1AFA61FC25944654006817E4 /* ESMegrationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESMegrationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AFA61FF25944654006817E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AFA620125944654006817E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +118,23 @@
 		1AFA628925948DBA006817E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AFA628B25948DBA006817E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AFA628C25948DBA006817E4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2921176650D274ED4B458D8F /* Pods-ESMigrationDemo_tvos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESMigrationDemo_tvos.debug.xcconfig"; path = "Target Support Files/Pods-ESMigrationDemo_tvos/Pods-ESMigrationDemo_tvos.debug.xcconfig"; sourceTree = "<group>"; };
+		3106D4A03931A7444EAB8057 /* Pods_ESMegrationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESMegrationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0E63445FD2FC4B7EC06F25 /* Pods_ESMigrationDemo_tvos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESMigrationDemo_tvos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B96A5158885015F57F16DD /* Pods-ESMigrationDemo_wtchos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESMigrationDemo_wtchos.release.xcconfig"; path = "Target Support Files/Pods-ESMigrationDemo_wtchos/Pods-ESMigrationDemo_wtchos.release.xcconfig"; sourceTree = "<group>"; };
+		5DCC0764F1FED94BA5F141BD /* Pods-ESMigrationDemo_macos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESMigrationDemo_macos.release.xcconfig"; path = "Target Support Files/Pods-ESMigrationDemo_macos/Pods-ESMigrationDemo_macos.release.xcconfig"; sourceTree = "<group>"; };
+		602231C0296779262F8BF635 /* Pods-ESMigrationDemo_wtchos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESMigrationDemo_wtchos.debug.xcconfig"; path = "Target Support Files/Pods-ESMigrationDemo_wtchos/Pods-ESMigrationDemo_wtchos.debug.xcconfig"; sourceTree = "<group>"; };
+		6132AA29081FCCD1C72518E8 /* Pods_ESMigrationDemo_wtchos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESMigrationDemo_wtchos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		731C6ACA2A6BB71709136E75 /* Pods_ESMigrationDemo_macos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESMigrationDemo_macos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ABEFC261370994721AFAEC8 /* Pods-ESMigrationDemo_wtchos WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESMigrationDemo_wtchos WatchKit Extension.release.xcconfig"; path = "Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit Extension/Pods-ESMigrationDemo_wtchos WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		96FE2E0554DAF454F95B46B7 /* Pods-ESMegrationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESMegrationDemo.release.xcconfig"; path = "Target Support Files/Pods-ESMegrationDemo/Pods-ESMegrationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		98BBC8F703C5917AA047D82D /* Pods_ESMigrationDemo_wtchos_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESMigrationDemo_wtchos_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ADBAEE7E1E8C17458E5FF29 /* Pods-ESMigrationDemo_wtchos WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESMigrationDemo_wtchos WatchKit App.release.xcconfig"; path = "Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit App/Pods-ESMigrationDemo_wtchos WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		A654E5DEFFED28A363B3EDCC /* Pods-ESMigrationDemo_tvos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESMigrationDemo_tvos.release.xcconfig"; path = "Target Support Files/Pods-ESMigrationDemo_tvos/Pods-ESMigrationDemo_tvos.release.xcconfig"; sourceTree = "<group>"; };
+		BEEE5387AB5E519C31C01E74 /* Pods-ESMigrationDemo_wtchos WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESMigrationDemo_wtchos WatchKit App.debug.xcconfig"; path = "Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit App/Pods-ESMigrationDemo_wtchos WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		C2C047EBAC2A047ECCFF043D /* Pods_ESMigrationDemo_wtchos_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ESMigrationDemo_wtchos_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A59D44574194D6287A9A98 /* Pods-ESMigrationDemo_macos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESMigrationDemo_macos.debug.xcconfig"; path = "Target Support Files/Pods-ESMigrationDemo_macos/Pods-ESMigrationDemo_macos.debug.xcconfig"; sourceTree = "<group>"; };
+		E999879CD327CC96E660828E /* Pods-ESMigrationDemo_wtchos WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESMigrationDemo_wtchos WatchKit Extension.debug.xcconfig"; path = "Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit Extension/Pods-ESMigrationDemo_wtchos WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AFA6217259487A5006817E4 /* ESMigration in Frameworks */,
+				B4FAA690830DF37F6D9F13D0 /* Pods_ESMegrationDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AFA623725948C92006817E4 /* ESMigration in Frameworks */,
+				0BC995DD39F7424AAFCCD5A8 /* Pods_ESMigrationDemo_macos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AFA625E25948D18006817E4 /* ESMigration in Frameworks */,
+				7B54880C1F8220156583EB42 /* Pods_ESMigrationDemo_tvos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +166,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AFA629F25948DC9006817E4 /* ESMigration in Frameworks */,
+				2F200880D1EEC69EE0B84D27 /* Pods_ESMigrationDemo_wtchos_WatchKit_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DC4258959B1BAA99031EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37ED6EDC20A481BF81B7D542 /* Pods_ESMigrationDemo_wtchos_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD8A273E32CA430BCA0CA49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85978CE3C65C8A16CAB2E78A /* Pods_ESMigrationDemo_wtchos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +199,7 @@
 				1AFA628025948DB9006817E4 /* ESMigrationDemo_wtchos WatchKit Extension */,
 				1AFA61FD25944654006817E4 /* Products */,
 				1AFA623525948C92006817E4 /* Frameworks */,
+				7DFDF06CAC948E12363D95F3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,6 +246,12 @@
 		1AFA623525948C92006817E4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3106D4A03931A7444EAB8057 /* Pods_ESMegrationDemo.framework */,
+				731C6ACA2A6BB71709136E75 /* Pods_ESMigrationDemo_macos.framework */,
+				3C0E63445FD2FC4B7EC06F25 /* Pods_ESMigrationDemo_tvos.framework */,
+				6132AA29081FCCD1C72518E8 /* Pods_ESMigrationDemo_wtchos.framework */,
+				98BBC8F703C5917AA047D82D /* Pods_ESMigrationDemo_wtchos_WatchKit_App.framework */,
+				C2C047EBAC2A047ECCFF043D /* Pods_ESMigrationDemo_wtchos_WatchKit_Extension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -250,6 +293,25 @@
 			path = "ESMigrationDemo_wtchos WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		7DFDF06CAC948E12363D95F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14B3240A3349810C135E84A1 /* Pods-ESMegrationDemo.debug.xcconfig */,
+				96FE2E0554DAF454F95B46B7 /* Pods-ESMegrationDemo.release.xcconfig */,
+				C5A59D44574194D6287A9A98 /* Pods-ESMigrationDemo_macos.debug.xcconfig */,
+				5DCC0764F1FED94BA5F141BD /* Pods-ESMigrationDemo_macos.release.xcconfig */,
+				2921176650D274ED4B458D8F /* Pods-ESMigrationDemo_tvos.debug.xcconfig */,
+				A654E5DEFFED28A363B3EDCC /* Pods-ESMigrationDemo_tvos.release.xcconfig */,
+				602231C0296779262F8BF635 /* Pods-ESMigrationDemo_wtchos.debug.xcconfig */,
+				45B96A5158885015F57F16DD /* Pods-ESMigrationDemo_wtchos.release.xcconfig */,
+				BEEE5387AB5E519C31C01E74 /* Pods-ESMigrationDemo_wtchos WatchKit App.debug.xcconfig */,
+				9ADBAEE7E1E8C17458E5FF29 /* Pods-ESMigrationDemo_wtchos WatchKit App.release.xcconfig */,
+				E999879CD327CC96E660828E /* Pods-ESMigrationDemo_wtchos WatchKit Extension.debug.xcconfig */,
+				7ABEFC261370994721AFAEC8 /* Pods-ESMigrationDemo_wtchos WatchKit Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -257,18 +319,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AFA621025944656006817E4 /* Build configuration list for PBXNativeTarget "ESMegrationDemo" */;
 			buildPhases = (
+				9D883247B6B274708ADA4C59 /* [CP] Check Pods Manifest.lock */,
 				1AFA61F825944654006817E4 /* Sources */,
 				1AFA61F925944654006817E4 /* Frameworks */,
 				1AFA61FA25944654006817E4 /* Resources */,
+				C44F00C6EC1BB781CF8C5197 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ESMegrationDemo;
-			packageProductDependencies = (
-				1AFA6216259487A5006817E4 /* ESMigration */,
-			);
 			productName = ESMegrationDemo;
 			productReference = 1AFA61FC25944654006817E4 /* ESMegrationDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -277,18 +338,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AFA623025948C67006817E4 /* Build configuration list for PBXNativeTarget "ESMigrationDemo_macos" */;
 			buildPhases = (
+				8902F47D7C9D54CDCB616AB4 /* [CP] Check Pods Manifest.lock */,
 				1AFA621F25948C65006817E4 /* Sources */,
 				1AFA622025948C65006817E4 /* Frameworks */,
 				1AFA622125948C65006817E4 /* Resources */,
+				222878E2EB75B0C21924EE64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ESMigrationDemo_macos;
-			packageProductDependencies = (
-				1AFA623625948C92006817E4 /* ESMigration */,
-			);
 			productName = ESMigrationDemo_macos;
 			productReference = 1AFA622325948C65006817E4 /* ESMigrationDemo_macos.app */;
 			productType = "com.apple.product-type.application";
@@ -297,18 +357,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AFA625725948D0D006817E4 /* Build configuration list for PBXNativeTarget "ESMigrationDemo_tvos" */;
 			buildPhases = (
+				5C624F2B379A37B9599CA2DC /* [CP] Check Pods Manifest.lock */,
 				1AFA624425948D0B006817E4 /* Sources */,
 				1AFA624525948D0B006817E4 /* Frameworks */,
 				1AFA624625948D0B006817E4 /* Resources */,
+				D56F8A07A8F4878AD1896241 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = ESMigrationDemo_tvos;
-			packageProductDependencies = (
-				1AFA625D25948D18006817E4 /* ESMigration */,
-			);
 			productName = ESMigrationDemo_tvos;
 			productReference = 1AFA624825948D0B006817E4 /* ESMigrationDemo_tvos.app */;
 			productType = "com.apple.product-type.application";
@@ -317,8 +376,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AFA629525948DBA006817E4 /* Build configuration list for PBXNativeTarget "ESMigrationDemo_wtchos" */;
 			buildPhases = (
+				081FF2174EFDE46D65817032 /* [CP] Check Pods Manifest.lock */,
 				1AFA626825948DB8006817E4 /* Resources */,
 				1AFA629425948DBA006817E4 /* Embed Watch Content */,
+				AD8A273E32CA430BCA0CA49B /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -334,8 +395,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AFA629125948DBA006817E4 /* Build configuration list for PBXNativeTarget "ESMigrationDemo_wtchos WatchKit App" */;
 			buildPhases = (
+				F170817EC3B1B3AB532DAB84 /* [CP] Check Pods Manifest.lock */,
 				1AFA626B25948DB8006817E4 /* Resources */,
 				1AFA629025948DBA006817E4 /* Embed App Extensions */,
+				46DC4258959B1BAA99031EC3 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -351,18 +414,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AFA628D25948DBA006817E4 /* Build configuration list for PBXNativeTarget "ESMigrationDemo_wtchos WatchKit Extension" */;
 			buildPhases = (
+				E1E35C83802B620388F7A17A /* [CP] Check Pods Manifest.lock */,
 				1AFA627825948DB9006817E4 /* Sources */,
 				1AFA627925948DB9006817E4 /* Frameworks */,
 				1AFA627A25948DB9006817E4 /* Resources */,
+				5E5070F4A6C0E0A99F400AB1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "ESMigrationDemo_wtchos WatchKit Extension";
-			packageProductDependencies = (
-				1AFA629E25948DC9006817E4 /* ESMigration */,
-			);
 			productName = "ESMigrationDemo_wtchos WatchKit Extension";
 			productReference = 1AFA627C25948DB9006817E4 /* ESMigrationDemo_wtchos WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
@@ -405,9 +467,6 @@
 				Base,
 			);
 			mainGroup = 1AFA61F325944654006817E4;
-			packageReferences = (
-				1AFA6215259487A5006817E4 /* XCRemoteSwiftPackageReference "ESMigration" */,
-			);
 			productRefGroup = 1AFA61FD25944654006817E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -477,6 +536,209 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		081FF2174EFDE46D65817032 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ESMigrationDemo_wtchos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		222878E2EB75B0C21924EE64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESMigrationDemo_macos/Pods-ESMigrationDemo_macos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESMigrationDemo_macos/Pods-ESMigrationDemo_macos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ESMigrationDemo_macos/Pods-ESMigrationDemo_macos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C624F2B379A37B9599CA2DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ESMigrationDemo_tvos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E5070F4A6C0E0A99F400AB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit Extension/Pods-ESMigrationDemo_wtchos WatchKit Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit Extension/Pods-ESMigrationDemo_wtchos WatchKit Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ESMigrationDemo_wtchos WatchKit Extension/Pods-ESMigrationDemo_wtchos WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8902F47D7C9D54CDCB616AB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ESMigrationDemo_macos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D883247B6B274708ADA4C59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ESMegrationDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C44F00C6EC1BB781CF8C5197 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESMegrationDemo/Pods-ESMegrationDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESMegrationDemo/Pods-ESMegrationDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ESMegrationDemo/Pods-ESMegrationDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56F8A07A8F4878AD1896241 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESMigrationDemo_tvos/Pods-ESMigrationDemo_tvos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ESMigrationDemo_tvos/Pods-ESMigrationDemo_tvos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ESMigrationDemo_tvos/Pods-ESMigrationDemo_tvos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1E35C83802B620388F7A17A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ESMigrationDemo_wtchos WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F170817EC3B1B3AB532DAB84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ESMigrationDemo_wtchos WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1AFA61F825944654006817E4 /* Sources */ = {
@@ -703,6 +965,7 @@
 		};
 		1AFA621125944656006817E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14B3240A3349810C135E84A1 /* Pods-ESMegrationDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -725,6 +988,7 @@
 		};
 		1AFA621225944656006817E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96FE2E0554DAF454F95B46B7 /* Pods-ESMegrationDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -747,6 +1011,7 @@
 		};
 		1AFA623125948C67006817E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A59D44574194D6287A9A98 /* Pods-ESMigrationDemo_macos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -771,6 +1036,7 @@
 		};
 		1AFA623225948C67006817E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DCC0764F1FED94BA5F141BD /* Pods-ESMigrationDemo_macos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -795,6 +1061,7 @@
 		};
 		1AFA625825948D0D006817E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2921176650D274ED4B458D8F /* Pods-ESMigrationDemo_tvos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -817,6 +1084,7 @@
 		};
 		1AFA625925948D0D006817E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A654E5DEFFED28A363B3EDCC /* Pods-ESMigrationDemo_tvos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -839,6 +1107,7 @@
 		};
 		1AFA628E25948DBA006817E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E999879CD327CC96E660828E /* Pods-ESMigrationDemo_wtchos WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -861,6 +1130,7 @@
 		};
 		1AFA628F25948DBA006817E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ABEFC261370994721AFAEC8 /* Pods-ESMigrationDemo_wtchos WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -883,6 +1153,7 @@
 		};
 		1AFA629225948DBA006817E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEEE5387AB5E519C31C01E74 /* Pods-ESMigrationDemo_wtchos WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -903,6 +1174,7 @@
 		};
 		1AFA629325948DBA006817E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADBAEE7E1E8C17458E5FF29 /* Pods-ESMigrationDemo_wtchos WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -923,6 +1195,7 @@
 		};
 		1AFA629625948DBA006817E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602231C0296779262F8BF635 /* Pods-ESMigrationDemo_wtchos.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -936,6 +1209,7 @@
 		};
 		1AFA629725948DBA006817E4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45B96A5158885015F57F16DD /* Pods-ESMigrationDemo_wtchos.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1014,40 +1288,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		1AFA6215259487A5006817E4 /* XCRemoteSwiftPackageReference "ESMigration" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/KKLater/ESMigration.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		1AFA6216259487A5006817E4 /* ESMigration */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1AFA6215259487A5006817E4 /* XCRemoteSwiftPackageReference "ESMigration" */;
-			productName = ESMigration;
-		};
-		1AFA623625948C92006817E4 /* ESMigration */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1AFA6215259487A5006817E4 /* XCRemoteSwiftPackageReference "ESMigration" */;
-			productName = ESMigration;
-		};
-		1AFA625D25948D18006817E4 /* ESMigration */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1AFA6215259487A5006817E4 /* XCRemoteSwiftPackageReference "ESMigration" */;
-			productName = ESMigration;
-		};
-		1AFA629E25948DC9006817E4 /* ESMigration */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1AFA6215259487A5006817E4 /* XCRemoteSwiftPackageReference "ESMigration" */;
-			productName = ESMigration;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1AFA61F425944654006817E4 /* Project object */;
 }

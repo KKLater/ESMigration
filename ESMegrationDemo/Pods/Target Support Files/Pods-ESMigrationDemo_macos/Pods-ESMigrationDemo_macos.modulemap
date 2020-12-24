@@ -1,0 +1,6 @@
+framework module Pods_ESMigrationDemo_macos {
+  umbrella header "Pods-ESMigrationDemo_macos-umbrella.h"
+
+  export *
+  module * { export * }
+}

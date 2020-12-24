@@ -1,0 +1,6 @@
+framework module Pods_ESMigrationDemo_tvos {
+  umbrella header "Pods-ESMigrationDemo_tvos-umbrella.h"
+
+  export *
+  module * { export * }
+}

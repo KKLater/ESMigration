@@ -83,15 +83,21 @@ public struct Migration {
             }
         }
         
-        /// 重置迁移版本记录
+        /// 重置迁移版本记录和更新版本记录
+        /// - Parameters:
+        ///   - migrationVersion: 重置最近迁移版本号
         ///
         /// 仅仅做版本记录清理，实际迁移或升级操作未能复原
         /// 如需重新做迁移或升级操作复原，仍需要重置后，重新 `migration` 或 `update`
-        public static func reset() {
-            lastMigrationVersion = nil
+        public static func reset(to migrationVersion: String? = nil) {
+            lastMigrationVersion = migrationVersion
             lastUpdateVersion = nil
             #if DEBUG
-            print("ESMigration: Running reset version: \(appVersion)")
+            if let migrationVersion = migrationVersion {
+                print("ESMigration: Running reset build: \(appVersion), migration version: \(migrationVersion)")
+            } else {
+                print("ESMigration: Running reset build: \(appVersion)")
+            }
             #endif
         }
         
@@ -194,17 +200,23 @@ public struct Migration {
         }
         
         /// 重置 `build` 迁移和升级更新版本记录
+        /// - Parameters:
+        ///   - migrationVersion: 重置最近迁移版本号
         ///
         /// 仅仅做版本记录清理，实际迁移或升级操作未能复原
         /// 如需重新做迁移或升级操作复原，仍需要重置后，重新 `migration` 或 `update`
-        public static func reset() {
-            lastMigrationVersion = nil
+        public static func reset(to migrationVersion: String? = nil) {
+            lastMigrationVersion = migrationVersion
             lastUpdateVersion = nil
             #if DEBUG
-            print("ESMigration: Running reset build: \(appBuildVersion)")
+            if let migrationVersion = migrationVersion {
+                print("ESMigration: Running reset build: \(appBuildVersion), migration version: \(migrationVersion)")
+            } else {
+                print("ESMigration: Running reset build: \(appBuildVersion)")
+            }
             #endif
         }
-        
+                
         /// `App` 当前 `build` 版本号
         ///
         /// From `CFBundleVersion`

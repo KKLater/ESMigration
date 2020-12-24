@@ -46,6 +46,10 @@ class InterfaceController: WKInterfaceController {
         Migration.App.reset()
         Migration.Build.reset()
 
+        // 重置到 最近一期迁移版本，1.1.0。即之后的 migration 会把 大于 1.1.0 版本且小于等于当前 App build 版本的执行一次
+        // 重置操作，同步清理掉 update 版本操作记录
+        // Migration.Build.reset(to: "1.1.0")
+        // Migration.App.reset(to: "1.1.0")
     }
     
     override func awake(withContext context: Any?) {

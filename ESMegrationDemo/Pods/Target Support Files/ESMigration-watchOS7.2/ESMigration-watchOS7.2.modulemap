@@ -1,0 +1,6 @@
+framework module ESMigration {
+  umbrella header "ESMigration-watchOS7.2-umbrella.h"
+
+  export *
+  module * { export * }
+}

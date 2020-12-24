@@ -1,0 +1,6 @@
+framework module ESMigration {
+  umbrella header "ESMigration-tvOS14.3-umbrella.h"
+
+  export *
+  module * { export * }
+}

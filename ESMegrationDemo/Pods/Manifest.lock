@@ -1,0 +1,16 @@
+PODS:
+  - ESMigration (0.0.1)
+
+DEPENDENCIES:
+  - ESMigration (from `../`)
+
+EXTERNAL SOURCES:
+  ESMigration:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ESMigration: cbb5e14843f581776496032e265d8a5b84dd4a12
+
+PODFILE CHECKSUM: 1b830233c0a675cf823c7134a8801a62a0dcd00c
+
+COCOAPODS: 1.10.0
